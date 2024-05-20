@@ -12,7 +12,6 @@ import Contacts from "./components/contacts/Contacts.jsx";
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
       <NavBar />
       <Banner />
       <Promo />

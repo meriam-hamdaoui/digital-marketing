@@ -1,0 +1,31 @@
+/* navbar.css */
+.navbar-custom {
+  padding: 8px 150px;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(207, 117, 153, 0.75);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(207, 117, 153, 0.75);
+  box-shadow: 0px 1px 3px 0px rgba(207, 117, 153, 0.75);
+  border: 0;
+  background-color: white;
+}
+
+.navbar-custom .navbar-brand span {
+  color: #371a74;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-custom .nav-link:link {
+  color: #371a74;
+}
+.navbar-custom .nav-link:visited {
+  color: #371a74;
+}
+.navbar-custom .nav-link:hover {
+  color: rgb(125, 32, 136, 0.75) !important;
+}
+.navbar-custom .nav-link:active {
+  color: #17285e !important;
+}
