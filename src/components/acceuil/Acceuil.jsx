@@ -2,7 +2,7 @@ import React from "react";
 import "./acceuil.css";
 
 const Acceuil = () => {
-  return <section>Acceuil</section>;
+  return <section id="acceuil">Acceuil</section>;
 };
 
 export default Acceuil;
