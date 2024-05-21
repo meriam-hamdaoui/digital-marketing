@@ -10,15 +10,11 @@
   background-color: white;
 }
 
-.navbar-custom .navbar-brand span {
-  color: #371a74;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .navbar-custom .nav-link:link {
   color: #371a74;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .navbar-custom .nav-link:visited {
   color: #371a74;
