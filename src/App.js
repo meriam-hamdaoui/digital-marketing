@@ -7,7 +7,7 @@ import About from "./components/about/About.jsx";
 import NosServices from "./components/nosServices/NosServices";
 import WhyUs from "./components/whyUs/WhyUs.jsx";
 import Packs from "./components/nosPacks/Packs.jsx";
-import Contacts from "./components/contacts/Contacts.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <NosServices />
       <WhyUs />
       <Packs />
-      <Contacts />
+      <Footer />
     </div>
   );
 }
