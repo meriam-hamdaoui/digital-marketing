@@ -1,7 +1,7 @@
 import React from "react";
 import "./assets/style/style.css";
 import NavBar from "./components/navBar/NavBar.jsx";
-import Banner from "./components/banner/Banner.jsx";
+import Acceuil from "./components/acceuil/Acceuil.jsx";
 import Promo from "./components/promo/Promo.jsx";
 import About from "./components/about/About.jsx";
 import NosServices from "./components/nosServices/NosServices";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Banner />
+      <Acceuil />
       <Promo />
       <About />
       <NosServices />
