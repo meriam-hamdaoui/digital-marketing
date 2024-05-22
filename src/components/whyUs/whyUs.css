@@ -1,0 +1,18 @@
+.reasons {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  grid-gap: 25px;
+}
+.reason-card {
+  width: 90%;
+  display: flex;
+}
+.img-container {
+  width: fit-content;
+  height: fit-content;
+}
+.reason-text {
+  /* border: 1px solid black; */
+  width: 65%;
+}
