@@ -1,0 +1,20 @@
+.top-footer {
+  width: auto;
+  padding: 20px 70px;
+}
+.footer-info {
+  width: 45%;
+  height: fit-content;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+.footer-form {
+  width: 40%;
+  height: fit-content;
+  padding: 15px;
+}
+.footer-info-txt {
+  width: fit-content;
+  padding: 15px;
+}
