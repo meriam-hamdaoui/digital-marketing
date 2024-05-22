@@ -2,6 +2,8 @@ import React from "react";
 import "./footer.css";
 import trendyAgency from "../../assets/img/trendy-agency.jpg";
 import { Form, Button } from "react-bootstrap";
+import { MdOutlinePhoneIphone, MdOutlineMailOutline } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -22,9 +24,18 @@ const Footer = () => {
               offrant une gamme complète de services pour aider les entreprises
               à tirer le meilleur parti de leur présence en ligne.
             </p>
-            <p>(+216) 21 95 60 39 / (+216) 28 14 90 95</p>
-            <p>trendyagency@outlook.fr</p>
-            <p>CENTRE URBAIN NORD, Tunis</p>
+            <p>
+              <MdOutlinePhoneIphone />
+              &nbsp;&nbsp; (+216) 21 95 60 39 / 28 14 90 95
+            </p>
+            <p>
+              <MdOutlineMailOutline />
+              &nbsp;&nbsp; trendyagency@outlook.fr
+            </p>
+            <p>
+              <IoLocationOutline />
+              &nbsp;&nbsp; CENTRE URBAIN NORD, Tunis
+            </p>
             <p>insta + facebook</p>
           </div>
         </div>

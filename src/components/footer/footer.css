@@ -6,8 +6,8 @@
   width: 45%;
   height: fit-content;
   display: flex;
-  justify-content: baseline;
-  align-items: center;
+  /* justify-content: space-between;
+  align-items: baseline; */
 }
 .footer-form {
   width: 40%;
