@@ -1,9 +1,10 @@
 import React from "react";
 import "./footer.css";
+import FooterForm from "./FooterForm";
 import trendyAgency from "../../assets/img/trendy-agency.jpg";
-import { Form, Button } from "react-bootstrap";
 import { MdOutlinePhoneIphone, MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import CustomSocialIcon from "./CustomSocialIcon";
 
 const Footer = () => {
   return (
@@ -13,8 +14,8 @@ const Footer = () => {
           <img
             src={trendyAgency}
             alt="trendy-agency"
-            width={"35%"}
-            height={"35%"}
+            width={"40%"}
+            height={"40%"}
           />
 
           <div className="footer-info-txt paragraph-font">
@@ -36,31 +37,19 @@ const Footer = () => {
               <IoLocationOutline />
               &nbsp;&nbsp; CENTRE URBAIN NORD, Tunis
             </p>
-            <p>insta + facebook</p>
-          </div>
-        </div>
-        <div className="footer-form">
-          <div className="trendy-agency-font text-left">
-            Pour Plus d'information :
-          </div>
-          <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Sujet</Form.Label>
-              <Form.Control type="text" placeholder="CC" />
-            </Form.Group>
-
-            <Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
+            <div
+              className="d-flex justify-content-between"
+              style={{ width: "15%" }}
             >
-              <Form.Label>Votre Message</Form.Label>
-              <Form.Control as="textarea" rows={3} />
-            </Form.Group>
-            <Button variant="primary" type="submit">
-              Envoyer
-            </Button>
-          </Form>
+              <CustomSocialIcon
+                url={"https://instagram.com/trendy.agency"}
+                size={25}
+              />
+              <CustomSocialIcon url={"https://facebook.com"} size={25} />
+            </div>
+          </div>
         </div>
+        <FooterForm />
       </div>
       <hr style={{ color: "rgba(207, 117, 153, 0.75)" }} />
       <div className="bottom-footer text-center">
