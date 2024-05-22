@@ -23,3 +23,9 @@
   font-weight: bold;
   color: #17285e !important;
 }
+#envoyer {
+  border: 1px solid #371a74;
+  color: #371a74;
+  background-color: transparent;
+  margin-left: 85%;
+}
