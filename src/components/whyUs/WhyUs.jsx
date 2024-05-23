@@ -4,8 +4,10 @@ import Reason from "./Reason";
 import { reasons } from "./data";
 const WhyUs = () => {
   return (
-    <section id="whyUs" className="section-pourquoi">
-      <div className="text-center pourquoi">Pourquoi Nous?</div>
+    <section id="whyUs" className="section-pourquoi d-flex flex-column">
+      <div className="pourquoi trendy-agency-font text-center">
+        Pourquoi Nous?
+      </div>
       <div className="reasons">
         {reasons.map((el) => (
           <Reason
