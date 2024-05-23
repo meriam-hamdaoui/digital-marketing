@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-evenly;
-  grid-gap: 25px;
+  grid-gap: 30px;
 }
 .reason-card {
   width: 90%;
@@ -15,4 +15,29 @@
 .reason-text {
   /* border: 1px solid black; */
   width: 65%;
+}
+.top-left-card {
+  -webkit-box-shadow: -8px -8px 8px -8px rgba(125, 32, 136, 1);
+  -moz-box-shadow: -8px -8px 8px -8px rgba(125, 32, 136, 1);
+  box-shadow: -8px -8px 8px -8px rgba(125, 32, 136, 1);
+}
+
+.top-right-card {
+  -webkit-box-shadow: 8px -8px 8px -8px rgba(125, 32, 136, 1);
+  -moz-box-shadow: 8px -8px 8px -8px rgba(125, 32, 136, 1);
+  box-shadow: 8px -8px 8px -8px rgba(125, 32, 136, 1);
+  justify-content: flex-end;
+}
+
+.bottom-left-card {
+  -webkit-box-shadow: -8px 8px 8px -8px rgba(125, 32, 136, 1);
+  -moz-box-shadow: -8px 8px 8px -8px rgba(125, 32, 136, 1);
+  box-shadow: -8px 8px 8px -8px rgba(125, 32, 136, 1);
+}
+
+.bottom-right-card {
+  -webkit-box-shadow: 8px 8px 8px -8px rgba(125, 32, 136, 1);
+  -moz-box-shadow: 8px 8px 8px -8px rgba(125, 32, 136, 1);
+  box-shadow: 8px 8px 8px -8px rgba(125, 32, 136, 1);
+  justify-content: flex-end;
 }
