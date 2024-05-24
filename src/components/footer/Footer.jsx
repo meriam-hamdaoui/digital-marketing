@@ -45,7 +45,12 @@ const Footer = () => {
                 url={"https://instagram.com/trendy.agency"}
                 size={25}
               />
-              <CustomSocialIcon url={"https://facebook.com"} size={25} />
+              <CustomSocialIcon
+                url={
+                  "https://www.facebook.com/profile.php?id=61559745715549&mibextid=ZbWKwL"
+                }
+                size={25}
+              />
             </div>
           </div>
         </div>
