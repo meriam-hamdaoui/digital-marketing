@@ -1,0 +1,27 @@
+.somme-nous {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 5rem;
+}
+.about-text {
+  width: 55%;
+  height: max-content;
+}
+
+.about-text > h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.5rem;
+}
+.agence-marketing,
+.notre-mission {
+  font-family: "Poppins", sans-serif;
+  color: #17285e;
+}
+.agence-marketing {
+  color: #371a74 !important;
+}
+.notre-mission {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
