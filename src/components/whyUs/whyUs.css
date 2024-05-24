@@ -30,8 +30,12 @@
   text-align: center;
   margin: auto;
   line-height: 5rem;
-  background-color: rgba(147, 14, 199, 1);
-  color: #e1a954;
+  /* background-color: rgba(147, 14, 199, 1); */
+  /* color: #e1a954; */
+  /* border: 1px solid #7d2088; */
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(125, 32, 136, 1);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(125, 32, 136, 1);
+  box-shadow: 0px 0px 20px 1px rgba(125, 32, 136, 1);
 }
 
 /* .reasons {
