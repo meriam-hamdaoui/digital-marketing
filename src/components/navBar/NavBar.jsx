@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" className="navbar-custom">
       <Container>
-        <Navbar.Brand href="#home" className="d-flex align-items-center">
+        <Navbar.Brand href="#acceuil" className="d-flex align-items-center">
           <img
             src={trendy}
             alt="trendy-logo"

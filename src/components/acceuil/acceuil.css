@@ -1,0 +1,69 @@
+section.acceuil {
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(207, 117, 153, 0.6) 40%,
+    rgba(163, 97, 171, 0.6) 70%,
+    rgba(125, 32, 136, 0.6) 100%
+  ); */
+  /* background: linear-gradient(-45deg, #4f318f, #8d2698, #cf7599, #fffcf7); */
+  background: linear-gradient(
+    -45deg,
+    #842cb6,
+    #ba08d0,
+    #fa6e33,
+    #df913e,
+    #ffbe46,
+    #fffcf7
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  -webkit-animation: gradient 15s ease infinite;
+
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    -90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(207, 117, 153, 1) 40%,
+    rgba(163, 97, 171, 1) 70%,
+    rgba(125, 32, 136, 1) 100%
+  ); */
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.be-trendy-title {
+  /* border: 1px solid green; */
+  padding: 25px;
+  color: #fffcf7;
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 5px;
+  font-family: "Poppins", sans-serif;
+}
+.be-trendy-p {
+  font-family: "Poppins", sans-serif;
+  line-height: 50px;
+  color: #fffcf7;
+  font-size: 20px;
+  font-size: large;
+  padding: 25px;
+}
+
+.be-trendy-container {
+  width: 50%;
+  height: 50%;
+  padding: 25px;
+}
