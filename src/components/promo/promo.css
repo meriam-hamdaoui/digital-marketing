@@ -34,3 +34,39 @@
 h1 {
   letter-spacing: 2px;
 }
+
+/* animation styles */
+.animated-logo {
+  animation: rotate3D 10s infinite linear;
+}
+
+@keyframes rotate3D {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+/* Highlighting style */
+.highlight {
+  display: inline-block;
+  animation: lightEffect 2s infinite alternate;
+}
+@keyframes lightEffect {
+  0% {
+    text-shadow: 0 0 5px rgba(163, 97, 171, 1), 0 0 10px rgba(163, 97, 171, 1),
+      0 0 15px rgba(163, 97, 171, 1), 0 0 20px rgba(163, 97, 171, 1),
+      0 0 25px rgba(163, 97, 171, 1);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(207, 117, 153, 1),
+      0 0 20px rgba(207, 117, 153, 1), 0 0 30px rgba(207, 117, 153, 1),
+      0 0 40px rgba(207, 117, 153, 1), 0 0 50px rgba(207, 117, 153, 1);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(254, 111, 41, 0.8),
+      0 0 20px rgba(254, 111, 41, 0.8), 0 0 30px rgba(254, 111, 41, 0.8),
+      0 0 40px rgba(254, 111, 41, 0.8), 0 0 50px rgba(254, 111, 41, 0.8);
+  }
+}
