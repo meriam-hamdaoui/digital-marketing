@@ -1,17 +1,50 @@
+#services {
+  padding: 2rem;
+  background-color: rgba(254, 159, 195, 0.1);
+}
+
+.service-title {
+  font-size: 3.5rem;
+  /* font-weight: bold; */
+  margin-bottom: 1.5rem;
+}
+
 .service-container {
-  /* background-color: aqua; */
-  padding: 2.5%;
+  gap: 0.6rem;
 }
 
 .service {
-  width: 30%;
+  /* width: 30%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: baseline;
+  align-items: baseline; */
+
+  width: 25%;
+  background: #ffffff; /* White background for cards */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .service > img {
+  width: 60%;
+  height: 65%;
+} */
+.service:hover {
+  transform: translateY(-10px); /* Floating effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
 .service > img {
-  width: 60%;
-  height: 65%;
+  width: 50%;
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 1rem;
+}
+.service > p {
+  width: 80%;
 }

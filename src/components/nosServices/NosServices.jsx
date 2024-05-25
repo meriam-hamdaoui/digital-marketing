@@ -11,7 +11,7 @@ const NosServices = () => {
       className="services d-flex flex-column justify-content-between"
     >
       <div className="service-title section-title text-center">
-        Nous Services
+        Nos Services
       </div>
       <div className="service-container d-flex justify-content-around">
         <div className="service">
