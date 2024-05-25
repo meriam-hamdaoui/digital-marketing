@@ -1,0 +1,21 @@
+.pack-section {
+  background-color: rgba(254, 159, 195, 0.1);
+}
+
+.pack {
+  width: 65%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pack-detail {
+  display: flex;
+  justify-content: space-between;
+  border: 5px bold violet;
+  border-radius: 25px;
+  width: 60%;
+  height: auto;
+}
