@@ -1,21 +1,51 @@
 .pack-section {
-  background-color: rgba(254, 159, 195, 0.1);
+  background-color: rgba(252, 152, 191, 0.1);
+}
+
+.pack-container {
+  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .pack {
-  width: 65%;
-  height: fit-content;
+  width: 45%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin: 1.5rem;
+  border: 3px solid black;
 }
 
-.pack-detail {
+.pack-title {
+  padding-bottom: 1.5rem;
+}
+.pack > h6 {
+  text-align: center;
+}
+
+div.pack-detail {
   display: flex;
   justify-content: space-between;
-  border: 5px bold violet;
-  border-radius: 25px;
-  width: 60%;
-  height: auto;
+  align-items: first baseline;
+  width: 90%;
+  /* height: 60%; */
+  background-color: aquamarine;
+}
+
+.detail-left > ul,
+.detail-right > ul {
+  list-style: circle;
+}
+
+.detail-left {
+  border: 1px solid red;
+  padding: 1rem;
+}
+.detail-right {
+  border: 1px solid blue;
+  padding: 1rem;
 }
