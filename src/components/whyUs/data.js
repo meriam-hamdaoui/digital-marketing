@@ -4,7 +4,7 @@ import reason2 from "../../assets/img/mobile-icons.png";
 import reason3 from "../../assets/img/client.png";
 import reason4 from "../../assets/img/speak-client.png";
 
-export const reasons = [
+export const reasonTab = [
   {
     id: uuidv4(),
     imgSrc: reason1,

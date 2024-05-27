@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./whyUs.css";
 import Reason from "./Reason";
-import { reasons } from "./data";
+import { reasonTab } from "./data";
 const WhyUs = () => {
+  const [reasons, setReasons] = useState([]);
+
+  const loadReasons = () => setReasons([...reasonTab]);
+
+  useEffect(() => loadReasons(), []);
+
   return (
     <section id="whyUs" className="section-pourquoi d-flex flex-column">
       <div className="pourquoi section-title  text-center">Pourquoi Nous?</div>
