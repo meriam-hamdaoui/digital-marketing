@@ -7,9 +7,7 @@ const Packs = () => {
       id="packs"
       className="pack-section d-flex flex-column justify-content-between align-items-center"
     >
-      <div className="pack-title section-title text-center">
-        Qui Somme-Nous?
-      </div>
+      <div className="pack-title section-title text-center">Nos Packs</div>
       <div className="pack-container">
         <div className="pack">
           <h6>Pack Gestion Médias Sociaux</h6>

@@ -33,19 +33,9 @@ div.pack-detail {
   align-items: first baseline;
   width: 90%;
   /* height: 60%; */
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
-.detail-left > ul,
-.detail-right > ul {
+.pack-card > ul {
   list-style: circle;
-}
-
-.detail-left {
-  border: 1px solid red;
-  padding: 1rem;
-}
-.detail-right {
-  border: 1px solid blue;
-  padding: 1rem;
 }

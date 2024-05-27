@@ -6,8 +6,9 @@ import Promo from "./components/promo/Promo.jsx";
 import About from "./components/about/About.jsx";
 import NosServices from "./components/nosServices/NosServices";
 import WhyUs from "./components/whyUs/WhyUs.jsx";
-import Packs from "./components/nosPacks/Packs.jsx";
+// import Packs from "./components/nosPacks/Packs.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import PackSection from "./components/nosPacks/PackSection.jsx";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <About />
       <NosServices />
       <WhyUs />
-      <Packs />
+      {/* <Packs /> */}
+      <PackSection />
       <Footer />
     </div>
   );
