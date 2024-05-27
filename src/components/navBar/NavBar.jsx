@@ -16,7 +16,7 @@ const NavBar = () => {
             height={50}
             className="d-inline-block align-top"
           />
-          <span className="trendy-agency-font ms-2">Trendy Agency</span>
+          <span className="trendy-agency-font ms-3">Trendy Agency</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
