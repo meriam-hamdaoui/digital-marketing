@@ -1,6 +1,6 @@
 /* navbar.css */
 .navbar-custom {
-  padding: 1.5rem;
+  padding: 1rem;
   position: sticky;
   top: 0;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(207, 117, 153, 0.75);
@@ -11,11 +11,22 @@
   z-index: 1000;
 }
 
+.navbar-container {
+  width: 80%;
+  height: auto;
+}
+.nav-menu {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
 .navbar-custom .nav-link:link {
   color: #371a74;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  line-height: 2rem;
+  font-size: 1.2rem;
 }
 .navbar-custom .nav-link:visited {
   color: #371a74;

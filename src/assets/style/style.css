@@ -3,21 +3,14 @@ section {
   height: auto;
   padding: 5rem 15rem;
 }
-
-.trendy-agency-font {
-  color: #371a74;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 500;
+.agency-name {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
   font-style: normal;
-  font-size: 30px;
-  line-height: 20px;
-}
-
-.paragraph-font {
+  font-size: 1.5rem;
   color: #371a74;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  line-height: 2rem;
 }
 
 .shrink-text {
@@ -27,9 +20,19 @@ section {
   display: block;
 }
 
+/*
+.paragraph-font {
+  color: #371a74;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 .section-title {
   font-family: "Bebas Neue", sans-serif;
   color: #17285e !important;
   font-size: 4rem;
   line-height: 5rem;
-}
+} */
