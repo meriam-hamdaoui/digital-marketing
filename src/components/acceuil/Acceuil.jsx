@@ -1,6 +1,7 @@
 import React from "react";
 import "./acceuil.css";
 import instaGirl from "../../assets/img/insta-girl-removebg.png";
+import { SocialIcon } from "react-social-icons";
 
 const Acceuil = () => {
   return (
@@ -8,7 +9,26 @@ const Acceuil = () => {
       id="acceuil"
       className="acceuil shrink-text d-flex justify-content-around"
     >
-      <img src={instaGirl} alt="insta-girl" width={450} height={550} />
+      <div
+        className="left-acceuil"
+        style={{
+          background: `url("${instaGirl}")  no-repeat center `,
+        }}
+      >
+        {/* <img
+          src={instaGirl}
+          alt="insta-girl"
+          width={"520rem"}
+          height={"620rem"}
+        /> */}
+        <SocialIcon className="icons" url="https://pinterest.com/" />
+        <SocialIcon className="icons" url="https://instagram.com/" />
+        <SocialIcon className="icons" url="https://facebook.com/" />
+        <SocialIcon className="icons" url="https://youtube.com/" />
+        <SocialIcon className="icons" url="https://linkedin.com/" />
+        <SocialIcon className="icons" url="https://x.com/" />
+        <SocialIcon className="icons" url="https://tiktok.com/" />
+      </div>
       <div className="be-trendy-container d-flex flex-column justify-content-end align-items-end">
         <div className="be-trendy-title d-flex flex-column justify-content-around align-items-end">
           <h1>BE TRENDY,</h1>

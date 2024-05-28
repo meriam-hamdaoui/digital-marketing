@@ -12,6 +12,7 @@ section.acceuil {
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   -webkit-animation: gradient 15s ease infinite;
+  display: flex;
 }
 @keyframes gradient {
   0% {
@@ -23,6 +24,86 @@ section.acceuil {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.left-acceuil {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* icon style */
+.icons {
+  margin: 8px; /* Space between icons */
+  /*  animation: float 4s infinite;Apply the float animation 
+  animation-fill-mode: both;*/
+  position: absolute; /* Position the icons absolutely within the container */
+  animation: rotate 8s infinite; /* Apply the circular animation */
+  animation-timing-function: linear;
+}
+
+/* Float animation 
+@keyframes float {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}*/
+
+/* Circular animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg) translateX(150px) rotate(-180deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+/* Apply staggered animation delays */
+.icons:nth-child(1) {
+  animation-delay: 0s;
+}
+.icons:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.icons:nth-child(3) {
+  animation-delay: 1s;
+}
+.icons:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.icons:nth-child(5) {
+  animation-delay: 2s;
+}
+.icons:nth-child(6) {
+  animation-delay: 2.5s;
+}
+.icons:nth-child(7) {
+  animation-delay: 3s;
+}
+
+/* right div */
+.be-trendy-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: auto;
+  padding: 2.5rem;
 }
 
 /* style weight size/line family */
@@ -39,10 +120,4 @@ section.acceuil {
   color: #fffcf7;
   padding: 2rem;
   text-align: justify;
-}
-
-.be-trendy-container {
-  width: 50%;
-  height: 50%;
-  padding: 2.5rem;
 }
