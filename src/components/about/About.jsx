@@ -5,9 +5,7 @@ import trendyBrochure from "../../assets/img/trendy-agency-removebg.png";
 const About = () => {
   return (
     <section id="about">
-      <div className="somme-nous section-title text-center">
-        Qui Somme-Nous?
-      </div>
+      <div className="section-title text-center">Qui Somme-Nous?</div>
       <div className="d-flex align-items-center justify-content-around">
         <img
           className="trendy-broch"

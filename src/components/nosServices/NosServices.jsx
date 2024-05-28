@@ -10,9 +10,7 @@ const NosServices = () => {
       id="services"
       className="services d-flex flex-column justify-content-between"
     >
-      <div className="service-title section-title text-center">
-        Nos Services
-      </div>
+      <div className="section-title text-center">Nos Services</div>
       <div className="service-container d-flex justify-content-around">
         <div className="service">
           <img src={presentation} alt="plan presentation" />

@@ -19,7 +19,7 @@ const Footer = () => {
           />
 
           <div className="footer-info-txt paragraph-font">
-            <p className="trendy-agency-font text-center">trendy agency</p>
+            <p className="agency-name text-center">TRENDY AGENCY</p>
             <p className="shrink-text ">
               Agence marketing digital spécialisée dans les réseaux sociaux,
               offrant une gamme complète de services pour aider les entreprises
