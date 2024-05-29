@@ -1,27 +1,30 @@
-.somme-nous {
-  font-size: 3rem;
-  text-align: center;
-  line-height: 5rem;
+.about-container {
+  width: 100%;
+  height: auto;
 }
-.about-text {
-  width: 55%;
-  height: max-content;
+.qui-somme-nous {
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
 }
 
-.about-text > h1 {
-  font-size: 4rem;
-  line-height: 4rem;
+.about-title {
+  font-size: 3rem;
+  line-height: 3rem;
   letter-spacing: 0.5rem;
+  padding: 2rem;
+}
+b.agency-name {
+  color: rgb(86, 58, 145) !important;
+}
+/* style weight size/line family */
+.about-text {
+  color: #371a74 !important;
+  width: 100%;
+  text-align: justify;
+  font: normal 300 1.5rem/2.5rem "Poppins", sans-serif;
 }
 .agence-marketing,
 .notre-mission {
-  font-family: "Poppins", sans-serif;
-  color: #17285e;
-}
-.agence-marketing {
-  color: #371a74 !important;
-}
-.notre-mission {
-  font-size: 1.5rem;
-  line-height: 3rem;
+  width: 80%;
 }
