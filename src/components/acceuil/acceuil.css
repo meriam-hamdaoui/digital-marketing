@@ -27,11 +27,9 @@ section.acceuil {
 }
 
 .left-acceuil {
-  /* border: 1px solid black; */
   width: 100%;
   height: auto;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: space-between;
 }
@@ -42,7 +40,7 @@ section.acceuil {
   /*  animation: float 4s infinite;Apply the float animation 
   animation-fill-mode: both;*/
   position: absolute; /* Position the icons absolutely within the container */
-  animation: rotate 8s infinite; /* Apply the circular animation */
+  animation: rotate 10s infinite; /* Apply the circular animation */
   animation-timing-function: linear;
 }
 
@@ -68,7 +66,7 @@ section.acceuil {
     transform: rotate(0deg) translateX(150px) rotate(0deg);
   }
   50% {
-    transform: rotate(180deg) translateX(150px) rotate(-180deg);
+    transform: rotate(-180deg) translateX(150px) rotate(180deg);
   }
   100% {
     transform: rotate(360deg) translateX(150px) rotate(-360deg);

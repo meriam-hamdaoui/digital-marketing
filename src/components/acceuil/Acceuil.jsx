@@ -11,16 +11,16 @@ const Acceuil = () => {
     >
       <div
         className="left-acceuil"
-        style={{
-          background: `url("${instaGirl}")  no-repeat center `,
-        }}
+        // style={{
+        //   background: `url("${instaGirl}")  no-repeat center `,
+        // }}
       >
-        {/* <img
+        <img
           src={instaGirl}
           alt="insta-girl"
           width={"520rem"}
           height={"620rem"}
-        /> */}
+        />
         <SocialIcon className="icons" url="https://pinterest.com/" />
         <SocialIcon className="icons" url="https://instagram.com/" />
         <SocialIcon className="icons" url="https://facebook.com/" />
