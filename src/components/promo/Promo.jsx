@@ -15,8 +15,8 @@ const Promo = () => {
       <img
         src={animateLogo}
         alt=""
-        width={110}
-        height={150}
+        width={"65rem"}
+        height={"75rem"}
         className="animated-logo"
       />
       <div className="sponsoring">
