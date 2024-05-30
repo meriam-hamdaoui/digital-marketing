@@ -19,7 +19,6 @@ section {
 
 .section-title {
   color: #371a74;
-  /* padding: 1rem; */
   /* style weight size/line family */
   font: normal 600 2.5rem/2rem "Montserrat", sans-serif;
 }
@@ -29,7 +28,4 @@ section {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  /*line-height: 3.5rem;
-  font-size: 1.5rem;
-  padding: 2rem;*/
 }

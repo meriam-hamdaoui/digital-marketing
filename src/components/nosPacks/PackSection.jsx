@@ -15,11 +15,11 @@ const PackSection = () => {
       id="packs"
       className="pack-section d-flex flex-column justify-content-between align-items-center"
     >
-      <div className="pack-title section-title text-center">Nos Packs</div>
+      <div className="section-title text-center">Nos Packs</div>
       <div className="pack-container">
         {packs.map((pack) => (
           <div key={pack.id} className="pack">
-            <h6>{pack.name}</h6>
+            <h6 className="pack-title">{pack.name}</h6>
             <div className="pack-detail">
               {pack.choices.map((choice) => (
                 <PackCard key={choice.id} choice={choice} />
