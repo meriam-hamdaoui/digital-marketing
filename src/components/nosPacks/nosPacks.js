@@ -7,12 +7,14 @@ export const nosPacks = [
     choices: [
       {
         id: uuidv4(),
-        price: "PACK SIMPLE 70 dt",
+        pack: "Pack SIMPLE",
+        price: "70 dt/mois",
         details: ["sponsoring simple : 50 post", "Statistiques"],
       },
       {
         id: uuidv4(),
-        price: "Pack Avancé 150 dt",
+        pack: "Pack AVANCER",
+        price: "150 dt/mois",
         details: ["sponsoring post", "stories", "méthodologies publicitaires"],
       },
     ],
@@ -23,7 +25,8 @@ export const nosPacks = [
     choices: [
       {
         id: uuidv4(),
-        price: "PACK BASIQUE 480 dt/mois",
+        pack: "Pack BASIQUE",
+        price: "480 dt/mois",
         details: [
           "Modération Automatique",
           "Planning Editorial",
@@ -32,7 +35,8 @@ export const nosPacks = [
       },
       {
         id: uuidv4(),
-        price: "Pack Silver 800 dt",
+        pack: "Pack SILVER",
+        price: "800 dt/mois",
         details: [
           "Modération Automatique",
           "Planning Editorial",
@@ -49,7 +53,8 @@ export const nosPacks = [
     choices: [
       {
         id: uuidv4(),
-        price: "PACK BASIQUE 700 dt /mois",
+        pack: "Pack BASIQUE",
+        price: "700 dt/mois",
         details: [
           ` Assistance à l’élaboration d’une stratégie sociale et création
                   des comptes sociaux`,
@@ -61,7 +66,8 @@ export const nosPacks = [
       },
       {
         id: uuidv4(),
-        price: "PACK SILVER 1000 dt /mois",
+        pack: "Pack SILVER",
+        price: "1000 dt/mois",
         details: [
           ` Assistance à l’élaboration d’une stratégie sociale et création
                   des comptes sociaux`,
@@ -80,7 +86,8 @@ export const nosPacks = [
     choices: [
       {
         id: uuidv4(),
-        price: "A partir 100 dt",
+        pack: "Pack BASIQUE",
+        price: "A partir 100 dt/mois",
         details: [
           ` Les collaborations avec les influencers30 %
             de frais de contrat`,
@@ -95,7 +102,8 @@ export const nosPacks = [
     choices: [
       {
         id: uuidv4(),
-        price: `A partir de 1000 jusqu'à 2500`,
+        pack: "Pack GOLD",
+        price: `A partir de 1000 jusqu'à 2500 :`,
         details: [
           `Mini formation accéléré`,
           `Consulting`,

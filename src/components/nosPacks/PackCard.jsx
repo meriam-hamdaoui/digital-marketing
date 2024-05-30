@@ -2,16 +2,22 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
 const PackCard = ({ choice }) => {
-  const { price, details } = choice;
+  const { pack, price, details } = choice;
 
   return (
     <div className="pack-card">
-      <p>{price}</p>
-      <ul>
-        {details.map((el) => (
-          <li key={uuidv4()}>{el}</li>
-        ))}
-      </ul>
+      <div className="ribbon-wrapper" style={{ width: "20rem" }}>
+        <div className="ribbon text-center">{pack}</div>
+      </div>
+      <br />
+      <div className="detail-list">
+        <div className=" text-center">{price}</div>
+        <ul>
+          {details.map((el) => (
+            <li key={uuidv4()}>{el}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

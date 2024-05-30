@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./packs.css";
+// import "./packs.css";
+import "./packStyle.css";
 import { nosPacks } from "./nosPacks";
 import PackCard from "./PackCard";
 
@@ -11,16 +12,13 @@ const PackSection = () => {
   useEffect(() => loadPacks(), []);
 
   return (
-    <section
-      id="packs"
-      className="pack-section d-flex flex-column justify-content-between align-items-center"
-    >
+    <section id="packs">
       <div className="section-title text-center">Nos Packs</div>
       <div className="pack-container">
         {packs.map((pack) => (
           <div key={pack.id} className="pack">
-            <h6 className="pack-title">{pack.name}</h6>
-            <div className="pack-detail">
+            <h6>{pack.name}</h6>
+            <div className="pack-detail d-flex justify-content-around">
               {pack.choices.map((choice) => (
                 <PackCard key={choice.id} choice={choice} />
               ))}
