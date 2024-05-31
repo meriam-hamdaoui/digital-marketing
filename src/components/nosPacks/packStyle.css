@@ -55,7 +55,6 @@
 }
 
 .ribbon-wrapper {
-  color: #5557d6;
   position: absolute;
   top: 0;
   right: 0;
@@ -65,12 +64,13 @@
   pointer-events: none;
 }
 .ribbon {
+  /* color: #5557d6; */
   position: absolute;
   top: 30px;
   right: -60px;
   width: 20rem;
   padding: 1.5rem 0;
-  background: white;
+  /* background: white; */
   font: bold 1.5rem Sans-Serif;
   text-align: center;
   transform: rotate(40deg);

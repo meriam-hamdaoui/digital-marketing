@@ -2,12 +2,14 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
 const PackCard = ({ choice }) => {
-  const { pack, price, details } = choice;
+  const { pack, price, details, style } = choice;
 
   return (
     <div className="pack-card">
       <div className="ribbon-wrapper">
-        <div className="ribbon text-center">{pack}</div>
+        <div className="ribbon text-center" style={style}>
+          {pack}
+        </div>
       </div>
       <br />
       <div className="detail-list d-flex flex-column  align-items-center">
