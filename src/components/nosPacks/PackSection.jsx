@@ -17,7 +17,7 @@ const PackSection = () => {
       <div className="pack-container">
         {packs.map((pack) => (
           <div key={pack.id} className="pack">
-            <h6>{pack.name}</h6>
+            <h6 className="text-center">{pack.name}</h6>
             <div className="pack-detail d-flex justify-content-around">
               {pack.choices.map((choice) => (
                 <PackCard key={choice.id} choice={choice} />
