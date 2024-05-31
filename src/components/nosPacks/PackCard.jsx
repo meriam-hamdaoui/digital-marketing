@@ -6,7 +6,7 @@ const PackCard = ({ choice }) => {
 
   return (
     <div className="pack-card">
-      <div className="ribbon-wrapper" style={{ width: "20rem" }}>
+      <div className="ribbon-wrapper">
         <div className="ribbon text-center">{pack}</div>
       </div>
       <br />
