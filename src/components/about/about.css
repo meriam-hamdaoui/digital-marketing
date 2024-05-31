@@ -1,0 +1,30 @@
+.about-container {
+  width: 100%;
+  height: auto;
+}
+.qui-somme-nous {
+  width: auto;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.about-title {
+  font-size: 3rem;
+  line-height: 3rem;
+  letter-spacing: 0.5rem;
+  padding: 2rem;
+}
+b.agency-name {
+  color: rgb(86, 58, 145) !important;
+}
+/* style weight size/line family */
+.about-text {
+  color: #371a74 !important;
+  width: 100%;
+  text-align: justify;
+  font: normal 300 1.5rem/2.5rem "Poppins", sans-serif;
+}
+.agence-marketing,
+.notre-mission {
+  width: 80%;
+}
