@@ -1,13 +1,27 @@
 .top-footer {
   width: auto;
-  padding: 20px 70px;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-around;
 }
 .footer-info {
-  width: 45%;
+  width: 50%;
   height: fit-content;
   display: flex;
-  /* justify-content: space-between;
-  align-items: baseline; */
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-intro {
+  width: 45%;
+}
+div.paragraph-font h4 {
+  margin-bottom: 2rem;
+  color: #371a74;
+
+  font: normal 600 1.5rem/2rem "Montserrat", sans-serif;
+}
+.social-icons {
+  width: 45%;
 }
 .footer-form {
   width: 40%;
@@ -22,10 +36,4 @@
   font-size: large;
   font-weight: bold;
   color: #17285e !important;
-}
-#envoyer {
-  border: 1px solid #371a74;
-  color: #371a74;
-  background-color: transparent;
-  margin-left: 85%;
 }
