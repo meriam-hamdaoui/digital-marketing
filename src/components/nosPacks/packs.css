@@ -1,0 +1,47 @@
+.pack-section {
+  background-color: rgba(207, 117, 153, 0.1);
+}
+
+.pack-section div.section-title {
+  padding-bottom: 2rem;
+}
+
+.pack-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pack {
+  width: 45%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 1.5rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.pack-title {
+  font: normal 500 1.5rem/1.5rem "Montserrat", sans-serif;
+  color: #371a74;
+  padding: 2rem;
+}
+.pack > h6 {
+  text-align: center;
+}
+
+div.pack-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  width: 90%;
+  /* height: 60%; */
+  /* background-color: aquamarine; */
+}
+
+.pack-card > ul {
+  list-style: circle;
+}

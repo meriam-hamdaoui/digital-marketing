@@ -1,5 +1,32 @@
 section {
   width: auto;
-  height: fit-content;
-  border-bottom: 1px solid rgb(251, 0, 255);
+  height: auto;
+  padding: 5rem 15rem;
+}
+.agency-name {
+  /* style weight size/line family */
+  font: normal 800 1.5rem/2rem "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  color: #371a74;
+}
+
+.shrink-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  display: block;
+}
+
+.section-title {
+  color: #371a74;
+  /* style weight size/line family */
+  font: normal 600 2.5rem/2rem "Montserrat", sans-serif;
+}
+
+.paragraph-font {
+  font: normal 100 1.2rem/2rem "Poppins", sans-serif;
+  color: #371a74;
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
 }

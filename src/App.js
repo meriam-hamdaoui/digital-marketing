@@ -1,25 +1,25 @@
 import React from "react";
+import "./assets/style/style.css";
 import NavBar from "./components/navBar/NavBar.jsx";
-import Banner from "./components/banner/Banner.jsx";
+import Acceuil from "./components/acceuil/Acceuil.jsx";
 import Promo from "./components/promo/Promo.jsx";
 import About from "./components/about/About.jsx";
-import NosServices from "./components/nosServices/NosServices";
 import WhyUs from "./components/whyUs/WhyUs.jsx";
-import Packs from "./components/nosPacks/Packs.jsx";
-import Contacts from "./components/contacts/Contacts.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import PackSection from "./components/nosPacks/PackSection.jsx";
+import ServiceSection from "./components/nosServices/ServiceSection.jsx";
 
 function App() {
   return (
     <div className="App">
-      <h1>React App</h1>
       <NavBar />
-      <Banner />
+      <Acceuil />
       <Promo />
       <About />
-      <NosServices />
+      <ServiceSection />
       <WhyUs />
-      <Packs />
-      <Contacts />
+      <PackSection />
+      <Footer />
     </div>
   );
 }
