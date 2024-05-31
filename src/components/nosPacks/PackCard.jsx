@@ -10,8 +10,8 @@ const PackCard = ({ choice }) => {
         <div className="ribbon text-center">{pack}</div>
       </div>
       <br />
-      <div className="detail-list">
-        <div className=" text-center">{price}</div>
+      <div className="detail-list d-flex flex-column  align-items-center">
+        <div className="price-tag text-center">{price}</div>
         <ul>
           {details.map((el) => (
             <li key={uuidv4()}>{el}</li>

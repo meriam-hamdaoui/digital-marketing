@@ -80,6 +80,24 @@ export const nosPacks = [
       },
     ],
   },
+
+  {
+    id: uuidv4(),
+    name: `Pack Stratégie de Médias Sociaux + Formation et Consultation +
+            Veille Concurrentielle`,
+    choices: [
+      {
+        id: uuidv4(),
+        pack: "Pack GOLD",
+        price: `A partir de 1000 jusqu'à 2500`,
+        details: [
+          `Mini formation accéléré`,
+          `Consulting`,
+          `Analyse clientèles et concurrentielles`,
+        ],
+      },
+    ],
+  },
   {
     id: uuidv4(),
     name: "Pack Influence Marketing",
@@ -91,23 +109,6 @@ export const nosPacks = [
         details: [
           ` Les collaborations avec les influencers30 %
             de frais de contrat`,
-        ],
-      },
-    ],
-  },
-  {
-    id: uuidv4(),
-    name: `Pack Stratégie de Médias Sociaux + Formation et Consultation +
-            Veille Concurrentielle`,
-    choices: [
-      {
-        id: uuidv4(),
-        pack: "Pack GOLD",
-        price: `A partir de 1000 jusqu'à 2500 :`,
-        details: [
-          `Mini formation accéléré`,
-          `Consulting`,
-          `Analyse clientèles et concurrentielles`,
         ],
       },
     ],
