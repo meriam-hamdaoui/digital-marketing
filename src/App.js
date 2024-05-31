@@ -18,7 +18,11 @@ function App() {
       <About />
       <ServiceSection />
       <WhyUs />
+      <hr style={{ color: "rgba(207, 117, 153, 0.75)" }} />
+
       <PackSection />
+      <hr style={{ color: "rgba(207, 117, 153, 0.75)" }} />
+
       <Footer />
     </div>
   );
