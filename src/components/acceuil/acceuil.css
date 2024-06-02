@@ -1,26 +1,27 @@
 section.acceuil {
-  padding: auto;
+  padding: 7rem 7.5rem auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: linear-gradient(
     -45deg,
-    rgb(132, 44, 182, 0.8),
-    rgb(186, 8, 208, 0.8),
-    rgb(250, 110, 51, 0.8),
-    rgb(223, 145, 62, 0.8),
-    rgb(255, 190, 70, 0.8)
+    rgb(132, 44, 182, 0.85),
+    rgb(186, 8, 208, 0.85),
+    rgb(250, 110, 51, 0.85),
+    rgb(223, 145, 62, 0.85),
+    rgb(255, 190, 70, 0.85)
   );
 }
 
-.acceuil_img {
-  width: 30%;
-  height: auto;
+.acceuil_img,
+.acceuil_icons,
+.acceuil_text {
+  padding: 1rem;
 }
 
 .acceuil_icons {
-  width: 20%;
-  height: auto;
+  width: 25%;
+  position: relative;
 }
 
 .icon {
@@ -33,13 +34,13 @@ section.acceuil {
 /* Circular icons animation */
 @keyframes rotate {
   0% {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
+    transform: rotate(0deg) translateX(120px) rotate(0deg);
   }
   50% {
-    transform: rotate(-180deg) translateX(100px) rotate(180deg);
+    transform: rotate(-180deg) translateX(120px) rotate(180deg);
   }
   100% {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    transform: rotate(360deg) translateX(120px) rotate(-360deg);
   }
 }
 
@@ -62,9 +63,9 @@ section.acceuil {
 .icon:nth-child(6) {
   animation-delay: 2.5s;
 }
-.icon:nth-child(7) {
+/* .icon:nth-child(7) {
   animation-delay: 3s;
-}
+} */
 
 .acceuil_text {
   width: 45%;
@@ -74,7 +75,6 @@ section.acceuil {
 .acceuil_title h1 {
   padding: 1.5rem;
   color: #fffcf7;
-  /* font: bold 4rem/2rem "Poppins", sans-serif; */
   font: bold clamp(1.8rem, 2.8vw, 4.8rem) / clamp(1rem, 1.5vw, 2rem) "Poppins",
     sans-serif;
   white-space: nowrap;
@@ -85,8 +85,7 @@ section.acceuil {
 }
 
 .acceuil_paragraph {
-  font: normal 1.5rem/3.5rem "Poppins", sans-serif;
-  font: normal clamp(1rem, 1.2vw, 1.5rem) / clamp(1.5rem, 2vw, 2.5rem) "Poppins",
+  font: normal clamp(1rem, 1.2vw, 1.8rem) / clamp(1.5rem, 2.4vw, 3rem) "Poppins",
     sans-serif;
   color: #fffcf7;
   padding: 2rem;
@@ -95,7 +94,61 @@ section.acceuil {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  letter-spacing: 0.2rem;
 }
 .p-author {
   text-align: right;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .acceuil_img,
+  .acceuil_icons {
+    display: none;
+  }
+
+  .acceuil_text {
+    width: 100%;
+  }
+  .acceuil_title h1 {
+    justify-content: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .acceuil_img,
+  .acceuil_icons {
+    display: none;
+  }
+
+  .acceuil_text {
+    width: 100%;
+  }
+  .acceuil_title h1 {
+    justify-content: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .acceuil_img,
+  .acceuil_icons {
+    display: none;
+  }
+
+  .acceuil_text {
+    width: 100%;
+  }
+
+  .acceuil_title h1 {
+    justify-content: center;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .acceuil_text {
+    width: 80%;
+  }
 }

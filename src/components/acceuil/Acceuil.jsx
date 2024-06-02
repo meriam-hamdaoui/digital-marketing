@@ -11,21 +11,21 @@ const Acceuil = () => {
         <img
           src={instaGirl}
           alt="insta-girl"
-          width={500}
-          height={600}
           className="img-fluid"
+          width={700}
+          height={700}
         />
       </div>
 
       {/* icons div */}
       <div className="acceuil_icons">
-        <SocialIcon className="icon" url="https://pinterest.com/" />
         <SocialIcon className="icon" url="https://instagram.com/" />
+        <SocialIcon className="icon" url="https://x.com/" />
         <SocialIcon className="icon" url="https://facebook.com/" />
         <SocialIcon className="icon" url="https://youtube.com/" />
-        <SocialIcon className="icon" url="https://linkedin.com/" />
-        <SocialIcon className="icon" url="https://x.com/" />
+        {/* <SocialIcon className="icon" url="https://linkedin.com/" /> */}
         <SocialIcon className="icon" url="https://tiktok.com/" />
+        <SocialIcon className="icon" url="https://pinterest.com/" />
       </div>
 
       {/* text */}
