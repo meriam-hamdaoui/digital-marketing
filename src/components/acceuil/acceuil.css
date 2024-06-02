@@ -25,9 +25,9 @@ section.acceuil {
 }
 
 .icon {
-  margin: 5px; /* Space between icons */
+  margin: 5%; /* Space between icons */
   position: absolute; /* Position the icons absolutely within the container */
-  animation: rotate 15s infinite; /* Apply the circular animation */
+  animation: rotate 20s infinite; /* Apply the circular animation */
   animation-timing-function: linear;
 }
 

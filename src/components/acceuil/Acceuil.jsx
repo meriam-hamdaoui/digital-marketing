@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./acceuil.css";
 import instaGirl from "../../assets/img/insta-girl-removebg.png";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
+import IconComponent, { URL, handleResize } from "./IconComponent";
 
 const Acceuil = () => {
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <section id="acceuil" className="acceuil">
       {/* img div */}
@@ -19,13 +26,9 @@ const Acceuil = () => {
 
       {/* icons div */}
       <div className="acceuil_icons">
-        <SocialIcon className="icon" url="https://instagram.com/" />
-        <SocialIcon className="icon" url="https://x.com/" />
-        <SocialIcon className="icon" url="https://facebook.com/" />
-        <SocialIcon className="icon" url="https://youtube.com/" />
-        {/* <SocialIcon className="icon" url="https://linkedin.com/" /> */}
-        <SocialIcon className="icon" url="https://tiktok.com/" />
-        <SocialIcon className="icon" url="https://pinterest.com/" />
+        {URL.map((el) => (
+          <IconComponent key={el.name} url={el.url} />
+        ))}
       </div>
 
       {/* text */}
