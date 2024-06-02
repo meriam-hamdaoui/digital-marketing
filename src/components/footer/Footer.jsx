@@ -65,7 +65,7 @@ const Footer = () => {
 
         {/* <FooterForm /> */}
       </div>
-      <hr style={{ color: "rgba(207, 117, 153, 0.75)" }} />
+      <hr style={{ color: "rgba(207, 117, 153, 1)" }} />
       <div className="bottom-footer text-center">
         TRENDY AGENCY@copyright-2024
       </div>
