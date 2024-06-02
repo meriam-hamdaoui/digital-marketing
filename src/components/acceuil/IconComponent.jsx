@@ -33,11 +33,11 @@ export const handleResize = () => {
   const icons = document.querySelectorAll(".icon");
   icons.forEach((icon) => {
     if (window.innerWidth <= 1200) {
+      icon.style.width = "45px";
+      icon.style.height = "45px";
+    } else {
       icon.style.width = "50px";
       icon.style.height = "50px";
-    } else {
-      icon.style.width = "55px";
-      icon.style.height = "55px";
     }
   });
 };
