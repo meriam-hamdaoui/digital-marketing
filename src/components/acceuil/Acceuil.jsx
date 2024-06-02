@@ -38,8 +38,8 @@ const Acceuil = () => {
           <p>
             "Les médias sociaux ne sont pas seulement une activité; c'est un
             investissement de temps et de ressources précieux. Entourez-vous de
-            personnes qui non seulement vous soutiennent, mais qui éclairent
-            votre réflexion."
+            personnes qui non seulement vous soutient, mais qui éclaire votre
+            réflexion."
           </p>
           <p>- Sean Gardner</p>
         </div>

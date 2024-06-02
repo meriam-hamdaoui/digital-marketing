@@ -28,7 +28,7 @@ const NavBar = () => {
               Acceuil
             </Link>
             <Link smooth to="#about" className="nav-link">
-              Qui Somme-Nous?
+              Qui Sommes-Nous?
             </Link>
             <Link smooth to="#services" className="nav-link">
               Nos Services

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="section-title text-center qui-somme-nous">
-        Qui Somme-Nous?
+        Qui Sommes-Nous?
       </div>
       <div className="about-container d-flex flex-column align-items-center justify-content-between">
         <div className="trendy-broch" style={{ padding: "2.5rem" }}>
@@ -21,9 +21,9 @@ const About = () => {
           <div className="about-text shrink-text d-flex justify-content-center">
             <p className="agence-marketing">
               <b className="agency-name">Agence marketing digital </b>
-              spécialisée dans le réseaux sociaux, offrant une gamme complète de
-              services pour aider les entreprises à tirer le meilleur parti de
-              leur présence en ligne.
+              spécialisée dans les réseaux sociaux, offrant une gamme complète
+              de services pour aider les entreprises à tirer le meilleur parti
+              de leur présence en ligne.
             </p>
           </div>
           <div className="about-text shrink-text d-flex justify-content-center">
