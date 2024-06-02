@@ -12,18 +12,24 @@ const Promo = () => {
 
         <p>*lors du mois d'ouverture</p>
       </div>
-      <img
-        src={animateLogo}
-        alt=""
-        width={"65rem"}
-        height={"75rem"}
-        className="animated-logo"
-      />
+
+      <div className="promo_logo">
+        <img
+          src={animateLogo}
+          alt="agency logo"
+          width={80}
+          height={80}
+          className="img-fluid"
+        />
+      </div>
+
       <div className="sponsoring">
         <h1>
           Sponsoring <span className="highlight">GRATUIT</span>
         </h1>
-        <p>lors de votre innscription au service Community Manager</p>
+        <p className="shrink-text">
+          lors de votre innscription au service Community Manager
+        </p>
       </div>
     </section>
   );
