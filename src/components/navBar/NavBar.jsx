@@ -1,29 +1,33 @@
 import React from "react";
 import "./navBar.css";
 import trendy from "../../assets/img/trendy-logo-removebg.png";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
 
 const NavBar = () => {
   return (
     <Navbar
       expand="lg"
-      className="navbar-custom d-flex justify-content-center align-items-center"
+      className="navbar-custom navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary"
     >
-      <div className="navbar-container d-flex justify-content-between align-items-center">
+      <Container fluid className="navbar-container">
         <Navbar.Brand href="#acceuil" className="d-flex align-items-center">
           <img
             src={trendy}
             alt="trendy-logo"
             width={"50rem"}
             height={"50rem"}
-            className="d-inline-block align-top"
+            className="d-inline-block align-top img-fluid"
           />
           <span className="agency-name ms-3">TRENDY AGENCY</span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav-menu ms-auto">
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="ms-auto my-2 my-lg-0 nav-menu"
+            style={{ maxHeight: "8rem" }}
+            navbarScroll
+          >
             <Link smooth to="#acceuil" className="nav-link">
               Acceuil
             </Link>
@@ -44,7 +48,7 @@ const NavBar = () => {
             </Link>
           </Nav>
         </Navbar.Collapse>
-      </div>
+      </Container>
     </Navbar>
   );
 };
