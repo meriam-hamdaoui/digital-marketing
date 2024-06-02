@@ -1,65 +1,97 @@
 .promo {
-  width: auto;
-  padding: 1rem 10rem;
+  width: 100%;
+  padding: 1rem 15rem;
   color: #371a74 !important;
-  /* font-weight: 500;
-  font-style: normal;
-  font-size: 30px;
-  line-height: 20px;*/
-  -webkit-box-shadow: 0px 1px 8px 4px rgba(207, 117, 153, 0.2);
-  -moz-box-shadow: 0px 1px 8px 4px rgba(207, 117, 153, 0.2);
-  box-shadow: 0px 1px 8px 4px rgba(207, 117, 153, 0.2);
+  -webkit-box-shadow: 0px 1px 8px 4px rgba(207, 117, 153, 0.5);
+  -moz-box-shadow: 0px 1px 8px 4px rgba(207, 117, 153, 0.5);
+  box-shadow: 0px 1px 8px 4px rgba(207, 117, 153, 0.5);
 }
+.profiter,
+.promo_logo,
+.sponsoring {
+  width: 30%;
+}
+
 .profiter > h1,
 .sponsoring > h1 {
-  font: bold 3rem/1.5rem "Montserrat", sans-serif;
-  letter-spacing: 0.4rem;
+  /* font: bold 3rem/1.5rem "Montserrat", sans-serif; */
+  font: bold clamp(1rem, 1.8vw, 4rem) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
+    sans-serif;
+  letter-spacing: 0.1rem;
   text-align: center;
   padding: 1rem;
+  white-space: nowrap;
 }
 .profiter > p,
 .sponsoring > p {
   color: #371a74 !important;
-  font: normal 400 1rem/1rem "Poppins", sans-serif;
-  text-align: right;
+  /* font: normal 400 1rem/1rem "Poppins", sans-serif; */
+  font: bold clamp(0.1rem, 0.5vw, 1.8rem) / clamp(1rem, 0.1vw, 2rem) "Poppins",
+    sans-serif;
+  text-align: center;
 }
 
 .profiter > h1 > span {
   color: #cf7599;
 }
 
-/* animation styles */
-.animated-logo {
-  animation: rotate3D 10s infinite linear;
-}
-
-@keyframes rotate3D {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-/* Highlighting style */
 .highlight {
   display: inline-block;
   animation: lightEffect 2s infinite alternate;
 }
+
+div.promo_logo {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
 @keyframes lightEffect {
   0% {
-    text-shadow: 0 0 5px rgba(163, 97, 171, 0.75),
-      0 0 10px rgba(163, 97, 171, 0.75), 0 0 15px rgba(163, 97, 171, 0.75),
-      0 0 20px rgba(163, 97, 171, 0.75), 0 0 25px rgba(163, 97, 171, 0.75);
+    text-shadow: 0 0 5px rgba(163, 97, 171, 0.7),
+      0 0 10px rgba(163, 97, 171, 0.7), 0 0 15px rgba(163, 97, 171, 0.7),
+      0 0 20px rgba(163, 97, 171, 0.7), 0 0 25px rgba(163, 97, 171, 0.7);
   }
   50% {
-    text-shadow: 0 0 10px rgba(207, 117, 153, 0.75),
-      0 0 20px rgba(207, 117, 153, 0.75), 0 0 30px rgba(207, 117, 153, 0.75),
-      0 0 40px rgba(207, 117, 153, 0.75), 0 0 50px rgba(207, 117, 153, 0.75);
+    text-shadow: 0 0 10px rgba(207, 117, 153, 0.7),
+      0 0 20px rgba(207, 117, 153, 0.7), 0 0 30px rgba(207, 117, 153, 0.7),
+      0 0 40px rgba(207, 117, 153, 0.7), 0 0 50px rgba(207, 117, 153, 0.7);
   }
   100% {
-    text-shadow: 0 0 10px rgba(254, 111, 41, 0.75),
-      0 0 20px rgba(254, 111, 41, 0.75), 0 0 30px rgba(254, 111, 41, 0.75),
-      0 0 40px rgba(254, 111, 41, 0.75), 0 0 50px rgba(254, 111, 41, 0.75);
+    text-shadow: 0 0 10px rgba(254, 111, 41, 0.7),
+      0 0 20px rgba(254, 111, 41, 0.7), 0 0 30px rgba(254, 111, 41, 0.7),
+      0 0 40px rgba(254, 111, 41, 0.7), 0 0 50px rgba(254, 111, 41, 0.7);
   }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  div.promo_logo {
+    display: none;
+  }
+  .promo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  div.promo_logo {
+    display: none;
+  }
+  .promo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  div.promo_logo {
+    display: none;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
 }
