@@ -8,7 +8,7 @@ export const reasonTab = [
   {
     id: uuidv4(),
     imgSrc: reason1,
-    text: "Nous créons des stratégies sur mesure pour chaque client, en prenant en compte leurs besoins et leur contexte commercial.",
+    text: "Nous créans des stratégies sur mesure pour chaque client, en prenant en compte leurs besoins et leur contexte commercial.",
     order: 0,
     name: "top-left-card",
   },

@@ -16,17 +16,17 @@
   height: auto;
 }
 .nav-menu {
-  width: 75%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
 }
 .navbar-custom .nav-link:link {
   color: #371a74;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 2rem;
-  font-size: 1.2rem;
+  /* font: normal 500 1.2rem/2rem "Poppins", sans-serif; */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font: normal 500 clamp(0.8rem, 1vw, 1.5rem) / clamp(1.5rem, 1.2vw, 2.5rem)
+      "Poppins",
+    sans-serif;
 }
 .navbar-custom .nav-link:visited {
   color: #371a74;
@@ -36,4 +36,8 @@
 }
 .navbar-custom .nav-link:active {
   color: #17285e !important;
+}
+.navbar-custom .agency-name {
+  white-space: nowrap; /* Prevent text from wrapping */
+  font: normal 700 clamp(1rem, 1.5vw, 1.8rem) "Poppins", sans-serif;
 }

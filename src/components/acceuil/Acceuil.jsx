@@ -1,47 +1,52 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./acceuil.css";
 import instaGirl from "../../assets/img/insta-girl-removebg.png";
-import { SocialIcon } from "react-social-icons";
+// import { SocialIcon } from "react-social-icons";
+import IconComponent, { URL, handleResize } from "./IconComponent";
 
 const Acceuil = () => {
+  useEffect(() => {
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <section
-      id="acceuil"
-      className="acceuil shrink-text d-flex justify-content-around"
-    >
-      <div
-        className="left-acceuil"
-        // style={{
-        //   background: `url("${instaGirl}")  no-repeat center `,
-        // }}
-      >
+    <section id="acceuil" className="acceuil">
+      {/* img div */}
+      <div className="acceuil_img">
         <img
           src={instaGirl}
           alt="insta-girl"
-          width={"520rem"}
-          height={"620rem"}
+          className="img-fluid"
+          width={700}
+          height={700}
         />
-        <SocialIcon className="icons" url="https://pinterest.com/" />
-        <SocialIcon className="icons" url="https://instagram.com/" />
-        <SocialIcon className="icons" url="https://facebook.com/" />
-        <SocialIcon className="icons" url="https://youtube.com/" />
-        <SocialIcon className="icons" url="https://linkedin.com/" />
-        <SocialIcon className="icons" url="https://x.com/" />
-        <SocialIcon className="icons" url="https://tiktok.com/" />
       </div>
-      <div className="be-trendy-container d-flex flex-column justify-content-end align-items-end">
-        <div className="be-trendy-title d-flex flex-column justify-content-around align-items-end">
+
+      {/* icons div */}
+      <div className="acceuil_icons">
+        {URL.map((el) => (
+          <IconComponent key={el.name} url={el.url} />
+        ))}
+      </div>
+
+      {/* text */}
+      <div className="acceuil_text">
+        {/* title */}
+        <div className="acceuil_title">
           <h1>BE TRENDY,</h1>
           <h1>BE SUCCESSFUL</h1>
         </div>
-        <div className="be-trendy-p shrink-text d-flex flex-column justify-content-end align-items-end">
-          <p>
+        {/* paragraph */}
+        <div className="acceuil_paragraph">
+          <p className="p-quote">
             "Les médias sociaux ne sont pas seulement une activité; c'est un
             investissement de temps et de ressources précieux. Entourez-vous de
-            personnes qui non seulement vous soutiennent, mais qui éclairent
-            votre réflexion."
+            personnes qui non seulement vous soutient, mais qui éclaire votre
+            réflexion."
           </p>
-          <p>- Sean Gardner</p>
+          <p className="p-author">- Sean Gardner</p>
         </div>
       </div>
     </section>
