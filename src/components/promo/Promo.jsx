@@ -4,7 +4,7 @@ import animateLogo from "../../assets/img/logo-1.png";
 
 const Promo = () => {
   return (
-    <section className="promo d-flex justify-content-around align-items-center">
+    <section className="promo">
       <div className="profiter">
         <h1>
           Profitez <span>20%*</span>
@@ -17,9 +17,8 @@ const Promo = () => {
         <img
           src={animateLogo}
           alt="agency logo"
-          width={80}
-          height={80}
-          className="img-fluid"
+
+          // className="img-fluid"
         />
       </div>
 
