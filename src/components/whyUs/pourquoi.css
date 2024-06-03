@@ -1,6 +1,6 @@
 .reason_container {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   margin: 2% auto auto;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
 }
 
 .reason_img {
-  max-width: 100%;
+  width: 30%;
   text-align: center;
 }
 
