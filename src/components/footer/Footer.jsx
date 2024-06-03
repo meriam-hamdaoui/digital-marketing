@@ -19,7 +19,7 @@ const Footer = () => {
             height={"30%"}
           />
 
-          <div className="paragraph-font footer-intro">
+          <div className="footer-intro">
             <p className="agency-name text-center">TRENDY AGENCY</p>
             <p className="shrink-text ">
               Agence marketing digital spécialisée dans les réseaux sociaux,
@@ -30,25 +30,25 @@ const Footer = () => {
         </div>
 
         {/* contacts */}
-        <div className="paragraph-font">
-          <h4>Nos Contacts</h4>
-          <p>
+        <div className="footer_contact ">
+          <h4 className="agency-name">Nos Contacts</h4>
+          <p className="">
             <MdOutlinePhoneIphone />
             &nbsp;&nbsp; (+216) 21 95 60 39 / 28 14 90 95
           </p>
-          <p>
+          <p className="">
             <MdOutlineMailOutline />
             &nbsp;&nbsp; trendyagency@outlook.fr
           </p>
-          <p>
+          <p className="">
             <IoLocationOutline />
             &nbsp;&nbsp; CENTRE URBAIN NORD, Tunis
           </p>
         </div>
 
         {/* social media */}
-        <div className="paragraph-font">
-          <h4>Suivez-Nous</h4>
+        <div className="follow">
+          <h4 className="agency-name">Suivez-Nous</h4>
           <div className="social-icons d-flex justify-content-around">
             <CustomSocialIcon
               url={"https://instagram.com/trendy.agency"}
