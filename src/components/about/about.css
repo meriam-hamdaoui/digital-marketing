@@ -1,19 +1,24 @@
 .about-container {
   width: 100%;
   height: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2% auto;
 }
-.qui-somme-nous {
-  width: auto;
-  height: auto;
-  padding: 0.5rem;
+.trendy-broch {
+  width: 50%;
+  max-width: 100%;
+  text-align: center;
+  margin: 1%;
 }
 
-.about-title {
-  font-size: 3rem;
-  line-height: 3rem;
-  letter-spacing: 0.5rem;
-  padding: 2rem;
+.trendy-broch img {
+  width: 60%;
+  height: 60%;
+  max-width: 100%;
 }
+
 b.agency-name {
   color: rgb(86, 58, 145) !important;
 }
@@ -22,11 +27,41 @@ b.agency-name {
   color: #371a74 !important;
   width: 100%;
   text-align: justify;
-  font: normal 300 clamp(0.5rem, 1.2vw, 3rem) / clamp(0.5rem, 1.8vw, 3.5rem)
+  font: normal 300 clamp(0.5rem, 1.2vw, 3.8rem) / clamp(0.5rem, 1.8vw, 3.5rem)
       "Poppins",
     sans-serif;
+  margin: 1%;
 }
 .agence-marketing,
 .notre-mission {
   width: 80%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .trendy-broch {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }

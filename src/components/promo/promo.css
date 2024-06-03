@@ -1,5 +1,6 @@
 .promo {
   width: 100%;
+  height: auto;
   padding: 1rem 15rem;
 
   display: flex;

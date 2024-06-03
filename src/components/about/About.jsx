@@ -8,17 +8,16 @@ const About = () => {
       <div className="section-title text-center qui-somme-nous">
         Qui Sommes-Nous?
       </div>
-      <div className="about-container d-flex flex-column align-items-center justify-content-between">
-        <div className="trendy-broch" style={{ padding: "2.5rem" }}>
+      <div className="about-container d-flex">
+        <div className="trendy-broch">
           <img
             src={trendyBrochure}
             alt="trendy brochure"
-            width={"370rem"}
-            height={"370rem"}
+            // className="img-fluid"
           />
         </div>
-        <div className="d-flex">
-          <div className="about-text shrink-text d-flex justify-content-center">
+        <div className="about-text d-flex">
+          <div className="shrink-text">
             <p className="agence-marketing">
               <b className="agency-name">Agence marketing digital </b>
               spécialisée dans les réseaux sociaux, offrant une gamme complète
@@ -26,7 +25,7 @@ const About = () => {
               de leur présence en ligne.
             </p>
           </div>
-          <div className="about-text shrink-text d-flex justify-content-center">
+          <div className="shrink-text">
             <p className="notre-mission">
               <b className="agency-name">Notre mission </b>est de fournir à nos
               clients des solutions innovantes et personnalisées qui les aident
