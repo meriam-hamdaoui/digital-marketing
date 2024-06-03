@@ -12,12 +12,7 @@ const ServiceSection = () => {
 
   return (
     <section id="services">
-      <div
-        className="section-title text-center"
-        style={{ paddingBottom: "1.5rem" }}
-      >
-        Nos Services
-      </div>
+      <div className="section-title text-center">Nos Services</div>
       <div className="card-container">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service} />

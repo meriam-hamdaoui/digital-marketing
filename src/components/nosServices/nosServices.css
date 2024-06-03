@@ -1,23 +1,22 @@
 #services {
-  background-color: rgba(207, 117, 153, 0.2);
+  background-color: rgba(207, 117, 153, 0.3);
 }
 
 .card-container {
-  padding: 1.5rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+  margin: 2% auto;
 }
 
 /* card annimation */
 .card {
   position: relative;
   height: 25rem;
-  width: 25%;
+  width: 75%;
+  max-width: 90%;
   margin: 2rem;
   background: none;
   border-radius: 2.5rem;
@@ -25,7 +24,16 @@
 }
 .card-title {
   color: white;
-  font: normal 500 1.5rem/1.5rem "Montserrat", sans-serif;
+  font: normal 500 clamp(1rem, 1.2vw, 4rem) / clamp(0.5rem, 1.5vw, 2rem)
+      "Montserrat",
+    sans-serif;
+  text-align: center;
+  width: 90%;
+}
+
+.card img {
+  width: 55%;
+  height: 50%;
 }
 
 .card-side {
@@ -43,16 +51,24 @@
   align-items: center;
   justify-content: space-around;
   text-align: justify;
+  padding: 2rem;
 }
 
 .card-side.front {
-  background-color: rgb(125, 32, 136, 0.7);
+  background-image: linear-gradient(
+    -45deg,
+    rgba(250, 110, 51, 0.8) 0%,
+    rgb(186, 8, 208, 0.8) 50%,
+    rgb(132, 44, 182, 0.8) 100%
+  );
 }
+
 .card-side.back {
   background-image: linear-gradient(
-    160deg,
-    rgb(125, 32, 136, 1) 0%,
-    rgba(207, 117, 153, 1) 100%
+    -45deg,
+    rgb(132, 44, 182, 1) 0%,
+    rgb(186, 8, 208, 1) 50%,
+    rgba(250, 110, 51, 1) 100%
   );
   transform: rotateY(-180deg);
 }
@@ -62,7 +78,8 @@
 }
 
 .card-p {
-  font: normal 300 1.5rem/2rem "Montserrat", sans-serif;
+  font: normal 300 clamp(0.8rem, 1.2vw, 2rem) / clamp(1rem, 1.8vw, 2.5rem)
+      "Montserrat",
+    sans-serif;
   text-align: justify;
-  padding: 1rem;
 }
