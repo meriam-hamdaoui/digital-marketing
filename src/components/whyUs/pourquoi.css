@@ -1,7 +1,7 @@
 .reason_container {
   width: 100%;
   height: 90vh;
-  margin: 2% auto;
+  margin: 2% auto auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
