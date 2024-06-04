@@ -6,7 +6,7 @@ section {
 
 .agency_name {
   /* style weight size/line family 1.5rem/2rem*/
-  font: normal 800 clamp(0.5rem, 1vw, 2rem) / clamp(0.5rem, 1vw, 2rem)
+  font: normal 800 clamp(0.5rem, 1vw, 1.5rem) / clamp(0.5rem, 0.5vw, 1rem)
       "Montserrat",
     sans-serif;
   font-optical-sizing: auto;
