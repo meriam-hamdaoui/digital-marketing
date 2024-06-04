@@ -38,12 +38,12 @@
   align-items: center;
   margin: 10px;
   padding: 5px;
-  width: 75%;
+  width: 50%;
 }
 
 .pack_detail {
   /* 1.5rem/2.9rem */
-  width: 60%;
+  width: 50%;
   height: max-content;
   font: normal 200 clamp(16px, 1vw, 20px) / clamp(3vh, 5vh, 7vh) "Poppins",
     sans-serif;
