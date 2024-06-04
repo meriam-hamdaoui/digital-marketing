@@ -1,7 +1,7 @@
 .pack_container {
   max-width: 100%;
   height: max-content;
-  margin-top: 2.5%;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,10 +11,11 @@
 .pack {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 75%;
   height: fit-content;
-  padding: 25px;
-  margin: 25px auto;
+  padding: 20px;
+  margin: 20px auto;
   background-color: rgba(207, 117, 153, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-top-right-radius: 10rem;
@@ -35,7 +36,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 15px;
+  margin: 10px;
   padding: 5px;
 }
 
@@ -73,10 +74,10 @@
 }
 .ribbon {
   position: absolute;
-  top: 35px;
-  right: -75px;
+  top: 30px;
+  right: -70px;
   width: 300px;
-  padding: 15px 0;
+  padding: 10px 0;
 
   font: bold 16px Sans-Serif;
   text-align: center;
@@ -98,6 +99,7 @@ ul li:before {
 }
 
 .price_tag {
+  text-align: center;
   color: #5557d6;
   background-color: white;
   width: 60%;
