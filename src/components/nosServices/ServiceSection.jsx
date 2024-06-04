@@ -12,8 +12,8 @@ const ServiceSection = () => {
 
   return (
     <section id="services">
-      <div className="section-title text-center">Nos Services</div>
-      <div className="card-container">
+      <div className="section_title text-center">Nos Services</div>
+      <div className="card_container">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service} />
         ))}

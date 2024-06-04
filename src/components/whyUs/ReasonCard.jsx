@@ -8,7 +8,7 @@ const ReasonCard = ({ reason }) => {
         <img src={imgSrc} alt="reason" />
       </div>
       <div className="reason_text p-3">
-        <p className="shrink-text">{text}</p>
+        <p className="shrink_text">{text}</p>
       </div>
     </div>
   );

@@ -5,13 +5,13 @@ const ServiceCard = ({ service }) => {
 
   return (
     <div className="card">
-      <div className="card-side front">
+      <div className="card_side front">
         <img src={img} alt="service-img" />
-        <div className="card-title text-center shrink-text">{title}</div>
+        <div className="card_title text-center shrink_text">{title}</div>
       </div>
-      <div className="card-side back shrink-text card-p">
+      <div className="card_side back shrink_text card_p">
         {desc}
-        {/* <div className="shrink-text card-p"></div> */}
+        {/* <div className="shrink_text card_p"></div> */}
       </div>
     </div>
   );

@@ -46,7 +46,7 @@ const Acceuil = () => {
             personnes qui non seulement vous soutient, mais qui éclaire votre
             réflexion."
           </p>
-          <p className="p-author">- Sean Gardner</p>
+          <p className="p_author">- Sean Gardner</p>
         </div>
       </div>
     </section>

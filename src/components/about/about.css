@@ -1,4 +1,4 @@
-.about-container {
+.about_container {
   width: 100%;
   height: auto;
   flex-direction: column;
@@ -6,24 +6,24 @@
   align-items: center;
   margin: 2% auto;
 }
-.trendy-broch {
+.trendy_broch {
   width: 50%;
   max-width: 100%;
   text-align: center;
   margin: 1%;
 }
 
-.trendy-broch img {
+.trendy_broch img {
   width: 60%;
   height: 60%;
   max-width: 100%;
 }
 
-b.agency-name {
+b.agency_name {
   color: rgb(86, 58, 145) !important;
 }
 /* style weight size/line family */
-.about-text {
+.about_text {
   color: #371a74 !important;
   width: 100%;
   text-align: justify;
@@ -32,21 +32,21 @@ b.agency-name {
     sans-serif;
   margin: 1%;
 }
-.agence-marketing,
-.notre-mission {
+.agence_marketing,
+.notre_mission {
   width: 80%;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-  .trendy-broch {
+  .trendy_broch {
     display: none;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-  .about-container {
+  .about_container {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -55,7 +55,7 @@ b.agency-name {
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
-  .about-container {
+  .about_container {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;

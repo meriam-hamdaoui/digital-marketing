@@ -1,22 +1,16 @@
-.top-footer {
+.top_footer {
   width: auto;
   padding: 1.5rem;
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
 }
-.footer-info {
+.footer_info {
   width: 50%;
   height: fit-content;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-.footer-intro {
-  width: 45%;
-  font: normal clamp(1rem, 1vw, 2rem) / clamp(1rem, 1.3vw, 2rem) "Montserrat",
-    sans-serif;
-  color: #371a74;
 }
 .footer_contact,
 .follow {
@@ -32,7 +26,7 @@
   width: 45%;
 }
 
-.bottom-footer {
+.bottom_footer {
   font-size: large;
   font-weight: bold;
   line-height: 1.5rem;

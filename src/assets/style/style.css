@@ -3,7 +3,7 @@ section {
   height: auto;
   padding: 5% 10%;
 }
-.agency-name {
+.agency_name {
   /* style weight size/line family 1.5rem/2rem*/
   font: normal 800 clamp(0.5rem, 1.2vw, 2.5rem) / clamp(1rem, 1.2vw, 2rem)
       "Montserrat",
@@ -13,14 +13,14 @@ section {
   white-space: nowrap;
 }
 
-.shrink-text {
+.shrink_text {
   overflow: hidden;
   text-overflow: ellipsis;
   word-wrap: break-word;
   display: block;
 }
 
-.section-title {
+.section_title {
   color: #371a74;
   font: normal 600 clamp(1.5rem, 2vw, 3rem) / clamp(0.5rem, 1.2vw, 1.5rem)
       "Montserrat",
@@ -28,7 +28,7 @@ section {
   white-space: nowrap;
 }
 
-.paragraph-font {
+.paragraph_font {
   font: normal 100 clamp(0.8rem, 1.2vw, 2rem) / clamp(0.5rem, 1vw, 1.5rem)
       "Poppins",
     sans-serif;

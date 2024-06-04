@@ -8,9 +8,9 @@ const NavBar = () => {
   return (
     <Navbar
       expand="lg"
-      className="navbar-custom navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary"
+      className="navbar_custom navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary"
     >
-      <Container fluid className="navbar-container">
+      <Container fluid className="navbar_container">
         <Navbar.Brand href="#acceuil" className="d-flex align-items-center">
           <img
             src={trendy}
@@ -19,31 +19,31 @@ const NavBar = () => {
             height={50}
             className="d-inline-block align-top img-fluid"
           />
-          <span className="agency-name ms-3">TRENDY AGENCY</span>
+          <span className="agency_name ms-3">TRENDY AGENCY</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="ms-auto my-2 my-lg-0 nav-menu"
+            className="ms-auto my-2 my-lg-0 nav_menu"
             style={{ maxHeight: "8rem" }}
             navbarScroll
           >
-            <Link smooth to="#acceuil" className="nav-link">
+            <Link smooth to="#acceuil" className="nav_link">
               Acceuil
             </Link>
-            <Link smooth to="#about" className="nav-link">
+            <Link smooth to="#about" className="nav_link">
               Qui Sommes-Nous?
             </Link>
-            <Link smooth to="#services" className="nav-link">
+            <Link smooth to="#services" className="nav_link">
               Nos Services
             </Link>
-            <Link smooth to="#whyUs" className="nav-link">
+            <Link smooth to="#whyUs" className="nav_link">
               Pourquoi Nous?
             </Link>
-            <Link smooth to="#packs" className="nav-link">
+            <Link smooth to="#packs" className="nav_link">
               Nos Packs
             </Link>
-            <Link smooth to="#footer" className="nav-link">
+            <Link smooth to="#footer" className="nav_link">
               Contactez-nous
             </Link>
           </Nav>

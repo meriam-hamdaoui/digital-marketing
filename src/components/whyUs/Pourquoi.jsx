@@ -12,7 +12,7 @@ const Pourquoi = () => {
 
   return (
     <section id="whyUs" className="section_pourquoi">
-      <div className="section-title text-center">Pourquoi Nous?</div>
+      <div className="section_title text-center">Pourquoi Nous?</div>
       <div className="reason_container">
         {reasons.map((reason) => (
           <ReasonCard key={reason.id} reason={reason} />

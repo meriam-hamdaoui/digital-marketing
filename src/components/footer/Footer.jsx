@@ -9,9 +9,9 @@ import CustomSocialIcon from "./CustomSocialIcon";
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="top-footer">
+      <div className="top_footer">
         {/* agency definition */}
-        <div className="footer-info">
+        <div className="footer_info">
           <img
             src={trendyAgency}
             alt="trendy-agency"
@@ -20,8 +20,8 @@ const Footer = () => {
           />
 
           <div className="footer-intro">
-            <p className="agency-name text-center">TRENDY AGENCY</p>
-            <p className="shrink-text ">
+            <p className="agency_name text-center">TRENDY AGENCY</p>
+            <p className="shrink_text ">
               Agence marketing digital spécialisée dans les réseaux sociaux,
               offrant une gamme complète de services pour aider les entreprises
               à tirer le meilleur parti de leur présence en ligne.
@@ -31,7 +31,7 @@ const Footer = () => {
 
         {/* contacts */}
         <div className="footer_contact ">
-          <h4 className="agency-name">Nos Contacts</h4>
+          <h4 className="agency_name">Nos Contacts</h4>
           <p className="">
             <MdOutlinePhoneIphone />
             &nbsp;&nbsp; (+216) 21 95 60 39 / 28 14 90 95
@@ -48,7 +48,7 @@ const Footer = () => {
 
         {/* social media */}
         <div className="follow">
-          <h4 className="agency-name">Suivez-Nous</h4>
+          <h4 className="agency_name">Suivez-Nous</h4>
           <div className="social-icons d-flex justify-content-around">
             <CustomSocialIcon
               url={"https://instagram.com/trendy.agency"}
@@ -66,7 +66,7 @@ const Footer = () => {
         {/* <FooterForm /> */}
       </div>
       <hr style={{ color: "rgba(207, 117, 153, 1)" }} />
-      <div className="bottom-footer text-center">
+      <div className="bottom_footer text-center">
         TRENDY AGENCY@copyright-2024
       </div>
     </footer>

@@ -26,7 +26,7 @@ const Promo = () => {
         <h1>
           Sponsoring <span className="highlight">GRATUIT</span>
         </h1>
-        <p className="shrink-text">
+        <p className="shrink_text">
           lors de votre innscription au service Community Manager
         </p>
       </div>

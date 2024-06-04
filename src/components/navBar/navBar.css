@@ -1,5 +1,5 @@
 /* navbar.css */
-.navbar-custom {
+.navbar_custom {
   padding: 1rem;
   position: sticky;
   top: 0;
@@ -11,33 +11,33 @@
   z-index: 1000;
 }
 
-.navbar-container {
+.navbar_container {
   width: 80%;
   height: auto;
 }
-.nav-menu {
+.nav_menu {
   width: 80%;
   display: flex;
   justify-content: space-around;
 }
-.navbar-custom .nav-link:link {
+.navbar_custom .nav_link:link {
   color: #371a74;
-  /* font: normal 500 1.2rem/2rem "Poppins", sans-serif; */
   white-space: nowrap; /* Prevent text from wrapping */
   font: normal 500 clamp(0.8rem, 1vw, 1.5rem) / clamp(1.5rem, 1.2vw, 2.5rem)
       "Poppins",
     sans-serif;
+  text-decoration: none;
 }
-.navbar-custom .nav-link:visited {
+.navbar_custom .nav_link:visited {
   color: #371a74;
 }
-.navbar-custom .nav-link:hover {
+.navbar_custom .nav_link:hover {
   color: rgb(125, 32, 136, 0.75) !important;
 }
-.navbar-custom .nav-link:active {
+.navbar_custom .nav_link:active {
   color: #17285e !important;
 }
-.navbar-custom .agency-name {
+.navbar_custom .agency_name {
   white-space: nowrap; /* Prevent text from wrapping */
   font: normal 700 clamp(1rem, 1.5vw, 1.8rem) "Poppins", sans-serif;
 }

@@ -32,13 +32,13 @@
   background-color: rgba(125, 32, 136, 0.15);
 }
 
-.left-card .reason_img {
+.left_card .reason_img {
   -webkit-box-shadow: 10px 0px 5px 0px rgba(125, 32, 136, 0.4);
   -moz-box-shadow: 10px 0px 5px 0px rgba(125, 32, 136, 0.4);
   box-shadow: 10px 0px 5px 0px rgba(125, 32, 136, 0.4);
 }
 
-.right-card .reason_img {
+.right_card .reason_img {
   -webkit-box-shadow: -10px 0px 5px 0px rgba(125, 32, 136, 0.4);
   -moz-box-shadow: -10px 0px 5px 0px rgba(125, 32, 136, 0.4);
   box-shadow: -10px 0px 5px 0px rgba(125, 32, 136, 0.4);

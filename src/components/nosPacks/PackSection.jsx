@@ -13,7 +13,7 @@ const PackSection = () => {
 
   return (
     <section id="packs">
-      <div className="section-title text-center">Nos Packs</div>
+      <div className="section_title text-center">Nos Packs</div>
       <div className="pack_container">
         {packs.map((pack) => (
           <div key={pack.id} className="pack">
