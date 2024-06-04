@@ -15,7 +15,7 @@
 }
 
 .reason_img {
-  width: 30%;
+  width: 35%;
   text-align: center;
 }
 
@@ -23,7 +23,7 @@
   width: 75%;
 }
 .reason_text {
-  font: normal 400 clamp(16px, 22px, 26px) / clamp(1vh, 4vh, 6vh) "Poppins",
+  font: normal 400 clamp(16px, 18px, 20px) / clamp(1vh, 3vh, 4vh) "Poppins",
     sans-serif;
   width: 100%;
   text-align: justify;
