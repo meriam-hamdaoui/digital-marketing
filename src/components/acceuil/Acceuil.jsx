@@ -19,8 +19,8 @@ const Acceuil = () => {
           src={instaGirl}
           alt="insta-girl"
           className="img-fluid"
-          width={700}
-          height={700}
+          width={550}
+          height={550}
         />
       </div>
 

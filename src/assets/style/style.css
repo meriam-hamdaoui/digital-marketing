@@ -1,11 +1,12 @@
 section {
-  width: auto;
-  height: auto;
+  max-width: 100%;
+  height: fit-content;
   padding: 5% 10%;
 }
+
 .agency_name {
   /* style weight size/line family 1.5rem/2rem*/
-  font: normal 800 clamp(0.5rem, 1.2vw, 2.5rem) / clamp(1rem, 1.2vw, 2rem)
+  font: normal 800 clamp(0.5rem, 1vw, 2rem) / clamp(0.5rem, 1vw, 2rem)
       "Montserrat",
     sans-serif;
   font-optical-sizing: auto;
