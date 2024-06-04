@@ -46,6 +46,7 @@ const IconComponent = ({ url }) => {
   const iconStyle = {
     width: "5px", // Default width
     height: "5px", // Default height
+    border: "2px solid black",
   };
 
   return <SocialIcon className="icon" url={url} style={iconStyle} />;
