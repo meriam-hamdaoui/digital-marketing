@@ -67,18 +67,18 @@
   top: 0;
   right: 0;
   overflow: hidden;
-  width: 320px;
-  height: 200px;
+  width: 300px;
+  height: 180px;
   pointer-events: none;
 }
 .ribbon {
   position: absolute;
-  top: 40px;
-  right: -80px;
-  width: 320px;
+  top: 35px;
+  right: -75px;
+  width: 300px;
   padding: 15px 0;
 
-  font: bold 18px Sans-Serif;
+  font: bold 16px Sans-Serif;
   text-align: center;
   transform: rotate(40deg);
   -webkit-transform: rotate(40deg);
@@ -100,11 +100,11 @@ ul li:before {
 .price_tag {
   color: #5557d6;
   background-color: white;
-  width: 70%;
-  height: 45%;
+  width: 60%;
+  height: 40%;
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 25% 75% 25% 75%;
-  font: bold clamp(16px, 18px, 20px) / clamp(1.5vh, 3.5vh, 4vh) "Montserrat",
+  font: bold clamp(14px, 16px, 18px) / clamp(1.5vh, 3vh, 4vh) "Montserrat",
     sans-serif;
 }
