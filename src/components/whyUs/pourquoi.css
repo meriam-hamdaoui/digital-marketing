@@ -9,7 +9,7 @@
 }
 
 .reason_card {
-  width: 75%;
+  width: 70%;
   height: auto;
   display: flex;
 }
@@ -20,11 +20,10 @@
 }
 
 .reason_img img {
-  width: 80%;
+  width: 75%;
 }
 .reason_text {
-  font: normal 300 clamp(0.5rem, 1.2vw, 3.8rem) / clamp(0.5rem, 1.8vw, 3.5rem)
-      "Poppins",
+  font: normal 400 clamp(16px, 22px, 26px) / clamp(1vh, 4vh, 6vh) "Poppins",
     sans-serif;
   width: 100%;
   text-align: justify;
