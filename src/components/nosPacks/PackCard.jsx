@@ -12,7 +12,7 @@ const PackCard = ({ choice }) => {
         </div>
       </div>
       <br />
-      <div className="detail_list d-flex flex-column  align-items-center">
+      <div className="detail_list">
         <div className="price_tag text-center">{price}</div>
         <ul>
           {details.map((el) => (

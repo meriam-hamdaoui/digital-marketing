@@ -12,12 +12,12 @@ const PackSection = () => {
   useEffect(() => loadPacks(), []);
 
   return (
-    <section id="packs">
+    <section id="packs" className="pack_section">
       <div className="section_title text-center">Nos Packs</div>
       <div className="pack_container">
         {packs.map((pack) => (
           <div key={pack.id} className="pack">
-            <h6 className="text-center">{pack.name}</h6>
+            <h6 className="pack_name text-center">{pack.name}</h6>
             <div className="pack_card">
               {pack.choices.map((choice) => (
                 <PackCard key={choice.id} choice={choice} />

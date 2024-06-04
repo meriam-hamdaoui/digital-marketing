@@ -2,6 +2,10 @@ section {
   max-width: 100%;
   height: fit-content;
   padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .agency_name {

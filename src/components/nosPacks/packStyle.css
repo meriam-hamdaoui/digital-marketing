@@ -1,5 +1,6 @@
 .pack_container {
   max-width: 100%;
+  height: max-content;
   margin-top: 2.5%;
   display: flex;
   flex-direction: column;
@@ -10,10 +11,10 @@
 .pack {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  height: max-content;
-  padding: 3%;
-  margin: 3% auto;
+  width: 75%;
+  height: fit-content;
+  padding: 35px;
+  margin: 25px auto;
   background-color: rgba(207, 117, 153, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-top-right-radius: 10rem;
@@ -27,30 +28,36 @@
   font: bold clamp(1rem, 1.3vw, 2rem) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
     sans-serif;
   color: rgb(55, 26, 116, 0.75);
-  padding: 1%;
+  padding: 5px;
 }
 
 .pack_card {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1%;
+  margin: 15px;
+  padding: 5px;
 }
 
 .pack_detail {
   /* 1.5rem/2.9rem */
   width: 40%;
-  height: 60vh;
-  font: normal 300 clamp(1rem, 1vw, 2rem) / clamp(1rem, 2vw, 2rem) "Poppins",
+  height: max-content;
+  font: normal 200 clamp(16px, 1vw, 20px) / clamp(3vh, 5vh, 7vh) "Poppins",
     sans-serif;
-  background: rgb(55, 26, 116, 0.65);
-  -webkit-box-shadow: 0px 0px 15px 1px rgb(55, 26, 116, 0.2);
-  -moz-box-shadow: 0px 0px 15px 1px rgb(55, 26, 116, 0.2);
-  box-shadow: 0px 0px 15px 1px rgb(55, 26, 116, 0.2);
+  background-image: linear-gradient(
+    45deg,
+    rgb(186, 8, 208, 0.75) 0%,
+    rgb(132, 44, 182, 0.75) 50%,
+    rgb(55, 26, 116, 0.75) 100%
+  );
+  -webkit-box-shadow: 0px 0px 15px 1px rgb(196, 45, 213, 0.8);
+  -moz-box-shadow: 0px 0px 15px 1px rgb(196, 45, 213, 0.8);
+  box-shadow: 0px 0px 15px 1px rgb(196, 45, 213, 0.8);
   color: white;
   text-align: left;
   align-self: center;
-  padding: 3rem;
+  padding: 10px;
   position: relative;
   border-radius: 1rem;
 }
@@ -60,18 +67,18 @@
   top: 0;
   right: 0;
   overflow: hidden;
-  width: 20rem;
-  height: 15rem;
+  width: 320px;
+  height: 240px;
   pointer-events: none;
 }
 .ribbon {
   position: absolute;
   top: 30px;
   right: -60px;
-  width: 20rem;
-  padding: 1.5rem 0;
+  width: 320px;
+  padding: 24px 0;
 
-  font: bold 1.5rem Sans-Serif;
+  font: bold 24px Sans-Serif;
   text-align: center;
   transform: rotate(40deg);
   -webkit-transform: rotate(40deg);
@@ -98,6 +105,6 @@ ul li:before {
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 25% 75% 25% 75%;
-  font: bold clamp(1rem, 1.2vw, 2rem) / clamp(1rem, 1.2vw, 2rem) "Montserrat",
+  font: bold clamp(16px, 22px, 30px) / clamp(1vh, 2.8vh, 3vh) "Montserrat",
     sans-serif;
 }

@@ -107,8 +107,7 @@ export const nosPacks = [
 
   {
     id: uuidv4(),
-    name: `Pack Stratégie de Médias Sociaux + Formation et Consultation +
-            Veille Concurrentielle`,
+    name: `Formation et Consulting `,
     choices: [
       {
         id: uuidv4(),
@@ -119,6 +118,7 @@ export const nosPacks = [
         },
         price: `A partir de 1000 jusqu'à 2500`,
         details: [
+          `Stratégie de Médias Sociaux`,
           `Mini formation accéléré`,
           `Consulting`,
           `Analyse clientèles et concurrentielles`,

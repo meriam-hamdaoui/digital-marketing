@@ -1,6 +1,7 @@
 section.acceuil {
   padding: 2% 5%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(
