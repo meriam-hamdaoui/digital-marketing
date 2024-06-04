@@ -16,7 +16,7 @@ const About = () => {
             // className="img-fluid"
           />
         </div>
-        <div className="about_text d-flex">
+        <div className="paragraph_font d-flex align-items-center justify-content-around">
           <div className="shrink_text">
             <p className="agence_marketing">
               <b className="agency_name">Agence marketing digital </b>

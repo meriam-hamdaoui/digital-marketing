@@ -36,8 +36,8 @@ export const handleResize = () => {
       icon.style.width = "38px";
       icon.style.height = "38px";
     } else {
-      icon.style.width = "35px";
-      icon.style.height = "35px";
+      icon.style.width = "30px";
+      icon.style.height = "30px";
     }
   });
 };
