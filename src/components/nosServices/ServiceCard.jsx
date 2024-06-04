@@ -9,10 +9,7 @@ const ServiceCard = ({ service }) => {
         <img src={img} alt="service-img" />
         <div className="card_title text-center shrink_text">{title}</div>
       </div>
-      <div className="card_side back shrink_text card_p">
-        {desc}
-        {/* <div className="shrink_text card_p"></div> */}
-      </div>
+      <div className="card_side back shrink_text card_p">{desc}</div>
     </div>
   );
 };

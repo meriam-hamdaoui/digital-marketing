@@ -11,7 +11,10 @@ const ServiceSection = () => {
   useEffect(() => loadServices(), []);
 
   return (
-    <section id="services">
+    <section
+      id="services"
+      className="service_section d-flex flex-column justify-content-between align-items-center"
+    >
       <div className="section_title text-center">Nos Services</div>
       <div className="card_container">
         {services.map((service) => (
