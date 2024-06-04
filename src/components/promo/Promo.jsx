@@ -14,12 +14,7 @@ const Promo = () => {
       </div>
 
       <div className="promo_logo">
-        <img
-          src={animateLogo}
-          alt="agency logo"
-
-          // className="img-fluid"
-        />
+        <img src={animateLogo} alt="agency logo" />
       </div>
 
       <div className="sponsoring">

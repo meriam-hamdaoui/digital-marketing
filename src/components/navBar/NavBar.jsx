@@ -15,8 +15,8 @@ const NavBar = () => {
           <img
             src={trendy}
             alt="trendy-logo"
-            width={45}
-            height={45}
+            width={50}
+            height={50}
             className="d-inline-block align-top img-fluid"
           />
           <span className="agency_name ms-3">TRENDY AGENCY</span>
