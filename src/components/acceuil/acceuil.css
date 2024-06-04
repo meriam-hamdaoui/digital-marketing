@@ -85,16 +85,12 @@ section.acceuil {
 }
 
 .acceuil_paragraph {
-  font: normal clamp(1rem, 1.2vw, 1.8rem) / clamp(1.5rem, 2.4vw, 3rem) "Poppins",
-    sans-serif;
   color: #fffcf7;
   padding: 2rem;
-  text-align: justify;
   margin-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  letter-spacing: 0.2rem;
 }
 .p_author {
   text-align: right;

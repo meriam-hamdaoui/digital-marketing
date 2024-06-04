@@ -39,7 +39,7 @@ const Acceuil = () => {
           <h1>BE SUCCESSFUL</h1>
         </div>
         {/* paragraph */}
-        <div className="acceuil_paragraph">
+        <div className="acceuil_paragraph paragraph_font ">
           <p className="p-quote">
             "Les médias sociaux ne sont pas seulement une activité; c'est un
             investissement de temps et de ressources précieux. Entourez-vous de

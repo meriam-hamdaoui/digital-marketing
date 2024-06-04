@@ -22,15 +22,17 @@ section {
 
 .section_title {
   color: #371a74;
-  font: normal 600 clamp(1.5rem, 2vw, 3rem) / clamp(0.5rem, 1.2vw, 1.5rem)
+  font: normal 600 clamp(1rem, 1.5vw, 2.5rem) / clamp(0.5rem, 1vw, 1.5rem)
       "Montserrat",
     sans-serif;
   white-space: nowrap;
 }
 
 .paragraph_font {
-  font: normal 100 clamp(0.8rem, 1.2vw, 2rem) / clamp(0.5rem, 1vw, 1.5rem)
-      "Poppins",
+  font: normal clamp(0.8rem, 1vw, 1.8rem) / clamp(1.5rem, 2vw, 2.5rem) "Poppins",
     sans-serif;
-  color: #371a74;
+  text-align: justify;
+  letter-spacing: 0.2rem;
+
+  /* color: #371a74; */
 }
