@@ -68,13 +68,13 @@
   right: 0;
   overflow: hidden;
   width: 320px;
-  height: 220px;
+  height: 200px;
   pointer-events: none;
 }
 .ribbon {
   position: absolute;
-  top: 20px;
-  right: -60px;
+  top: 35px;
+  right: -70px;
   width: 320px;
   padding: 15px 0;
 
