@@ -67,18 +67,18 @@
   top: 0;
   right: 0;
   overflow: hidden;
-  width: 350px;
-  height: 220px;
+  width: 300px;
+  height: 200px;
   pointer-events: none;
 }
 .ribbon {
   position: absolute;
   top: 30px;
   right: -60px;
-  width: 350px;
-  padding: 24px 0;
+  width: 300px;
+  padding: 20px 0;
 
-  font: bold 20px Sans-Serif;
+  font: bold 28px Sans-Serif;
   text-align: center;
   transform: rotate(40deg);
   -webkit-transform: rotate(40deg);
@@ -105,6 +105,6 @@ ul li:before {
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 25% 75% 25% 75%;
-  font: bold clamp(16px, 20px, 24px) / clamp(1.5vh, 2.5vh, 3vh) "Montserrat",
+  font: bold clamp(16px, 18px, 20px) / clamp(1.5vh, 3vh, 4vh) "Montserrat",
     sans-serif;
 }
