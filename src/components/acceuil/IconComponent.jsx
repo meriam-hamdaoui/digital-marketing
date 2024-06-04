@@ -33,20 +33,19 @@ export const handleResize = () => {
   const icons = document.querySelectorAll(".icon");
   icons.forEach((icon) => {
     if (window.innerWidth <= 1200) {
-      icon.style.width = "5px";
-      icon.style.height = "5px";
+      icon.style.width = "38px";
+      icon.style.height = "38px";
     } else {
-      icon.style.width = "1px";
-      icon.style.height = "1px";
+      icon.style.width = "42px";
+      icon.style.height = "42px";
     }
   });
 };
 
 const IconComponent = ({ url }) => {
   const iconStyle = {
-    width: "5px", // Default width
-    height: "5px", // Default height
-    border: "2px solid black",
+    width: "38px", // Default width
+    height: "38px", // Default height
   };
 
   return <SocialIcon className="icon" url={url} style={iconStyle} />;
