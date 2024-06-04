@@ -13,7 +13,7 @@
   flex-direction: column;
   width: 75%;
   height: fit-content;
-  padding: 35px;
+  padding: 25px;
   margin: 25px auto;
   background-color: rgba(207, 117, 153, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.8);
@@ -73,8 +73,8 @@
 }
 .ribbon {
   position: absolute;
-  top: 30px;
-  right: -60px;
+  top: 15px;
+  right: -30px;
   width: 150px;
   padding: 10px 0;
 
