@@ -67,15 +67,15 @@
   top: 0;
   right: 0;
   overflow: hidden;
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 220px;
   pointer-events: none;
 }
 .ribbon {
   position: absolute;
   top: 15px;
   right: -30px;
-  width: 250px;
+  width: 350px;
   padding: 15px 0;
 
   font: bold 20px Sans-Serif;
