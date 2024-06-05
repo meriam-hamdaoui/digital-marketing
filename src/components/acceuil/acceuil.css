@@ -91,10 +91,12 @@ section.acceuil {
 
 .acceuil_paragraph {
   color: #fffcf7;
-  padding: 3rem 2rem;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-size: clamp(14px, 16px, 18px);
+  line-height: clamp(2vw, 2.5vw, 3vw);
 }
 
 .p_author {

@@ -25,8 +25,8 @@ b.agency_name {
 /* style weight size/line family */
 .agence_marketing,
 .notre_mission {
-  /* font-size: clamp(1rem, 1.1vw, 3rem); */
-  /* line-height: clamp(1rem, 2vw, 2.5rem); */
+  font-size: clamp(10px, 12px, 14px);
+  line-height: clamp(1vw, 1.5vw, 2vw);
   color: #371a74;
 
   width: 80%;
