@@ -19,11 +19,11 @@
 
 .reason_img {
   text-align: center;
-  width: 75%;
+  width: 55%;
 }
 
 .reason_img img {
-  max-width: 60%;
+  max-width: 50%;
 }
 .reason_text {
   font: normal 400 clamp(14px, 16px, 20px) / clamp(2vh, 3vh, 5vh) "Poppins",
