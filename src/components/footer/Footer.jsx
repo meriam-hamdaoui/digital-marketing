@@ -8,7 +8,7 @@ import CustomSocialIcon from "./CustomSocialIcon";
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="top_footer d-flex flex-row align-items-center justify-content-between">
+      <div className="top_footer d-flex flex-row align-items-center justify-content-around">
         <div className="footer_agency d-flex flex-row align-items-center justify-content-around">
           <div className="footer_img_container text-center">
             <img
