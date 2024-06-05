@@ -1,6 +1,6 @@
 .promo {
   width: 100%;
-  height: fit-content;
+  height: max-content;
   padding: 1% 8%;
 
   display: flex;
@@ -20,14 +20,14 @@
 }
 
 .promo_logo img {
-  max-width: 12%;
-  max-height: 12%;
+  max-width: 15%;
+  /* max-height: 12%; */
 }
 
 .profiter > h1,
 .sponsoring > h1 {
   /* font: bold 3rem/1.5rem "Montserrat", sans-serif; */
-  font: bold clamp(1rem, 1.8vw, 4rem) / clamp(1rem, 1vw, 2rem) "Montserrat",
+  font: bold clamp(14px, 18px, 20px) / clamp(1.5vh, 1vw, 2vh) "Montserrat",
     sans-serif;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -38,7 +38,7 @@
 .sponsoring > p {
   color: #371a74 !important;
   /* font: normal 400 1rem/1rem "Poppins", sans-serif; */
-  font: bold clamp(0.5rem, 0.5vw, 1.8rem) / clamp(1rem, 0.2vw, 2rem) "Poppins",
+  font: bold clamp(6px, 9px, 11px) / clamp(1rem, 0.5vw, 2rem) "Poppins",
     sans-serif;
   text-align: center;
 }
