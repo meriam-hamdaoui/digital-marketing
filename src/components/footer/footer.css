@@ -1,9 +1,14 @@
 footer {
   max-width: 100%;
   height: max-content;
-  padding: auto 250px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
+.top_footer {
+  width: 80%;
+}
 .footer_agency,
 .footer_contact_agency {
   width: 45%;
