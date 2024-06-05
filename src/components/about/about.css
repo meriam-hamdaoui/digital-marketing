@@ -14,7 +14,7 @@
 }
 
 .trendy_broch img {
-  max-width: 50%;
+  max-width: 55%;
   height: 60%;
 }
 .about_paragraph {
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: baseline;
   font-size: clamp(11px, 13px, 14px);
-  line-height: clamp(1vw, 1.5vw, 2vw);
+  line-height: clamp(1vw, 1.2vw, 1.5vw);
   color: #371a74;
 }
 

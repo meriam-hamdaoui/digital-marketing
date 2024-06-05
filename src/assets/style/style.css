@@ -27,7 +27,7 @@ section {
 
 .section_title {
   color: #371a74;
-  font: normal 600 clamp(16px, 18px, 20px) / clamp(0.5rem, 1vw, 1.5rem)
+  font: normal 600 clamp(16px, 20px, 22px) / clamp(0.5rem, 1vw, 1.5rem)
       "Montserrat",
     sans-serif;
   white-space: nowrap;
