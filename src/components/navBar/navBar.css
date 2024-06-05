@@ -22,7 +22,7 @@
 .navbar_custom .nav_link:link {
   color: #371a74;
   white-space: nowrap; /* Prevent text from wrapping */
-  font: normal 500 clamp(10px, 12px, 14px) / clamp(0.8rem, 1vw, 1.2rem)
+  font: normal 500 clamp(12px, 13px, 14px) / clamp(0.8rem, 1.2vw, 1.2rem)
       "Poppins",
     sans-serif;
   text-decoration: none;
