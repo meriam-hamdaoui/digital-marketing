@@ -1,49 +1,56 @@
-.pack_container {
-  max-width: 100%;
+.pack_section {
+  /* background-color: rgba(207, 117, 153, 0.2); */
   height: max-content;
-  margin-top: 50px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
-.pack {
+.pack_container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  width: 85%;
+  height: max-content;
+}
+.pack_service_card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75%;
-  height: fit-content;
-  padding: 5px;
-  margin: 15px auto;
+  justify-content: space-around;
+  padding: 20px;
+  width: 100%;
+  margin: 25px auto;
+  height: 45vh;
   background-color: rgba(207, 117, 153, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 1);
   border-top-right-radius: 10rem;
   border-bottom-left-radius: 10rem;
-  -webkit-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 0.6);
-  -moz-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 0.6);
-  box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 0.6);
+  -webkit-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 1);
+  -moz-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 1);
 }
 
-.pack h6 {
-  font: bold clamp(1rem, 1.3vw, 2rem) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
+.pack_name {
+  font: bold clamp(14px, 18px, 20px) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
     sans-serif;
   color: rgb(55, 26, 116, 0.75);
   padding: 5px;
 }
-
 .pack_card {
+  /* border: 2px solid black; */
+  width: 70%;
+  height: 40vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: auto 50px;
-  width: 75%;
-  height: max-content;
 }
 
 .pack_detail {
-  font: normal 200 clamp(16px, 1vw, 20px) / clamp(3vh, 5vh, 7vh) "Poppins",
+  font: normal 200 clamp(12px, 14px, 16px) / clamp(0.5vw, 1.4vw, 1.5vw)
+      "Poppins",
     sans-serif;
   background-image: linear-gradient(
     45deg,
@@ -55,14 +62,15 @@
   -moz-box-shadow: 0px 0px 15px 1px rgb(196, 45, 213, 0.8);
   box-shadow: 0px 0px 15px 1px rgb(196, 45, 213, 0.8);
   color: white;
-  padding: 10px;
+  padding: 15px 5px;
   position: relative;
   border-radius: 1rem;
-  width: 50%;
-  height: max-content;
+  width: 40%;
+  height: 90%;
   margin: auto 20px;
 }
 
+/* ribbon tag */
 .ribbon_wrapper {
   position: absolute;
   top: 0;
@@ -89,7 +97,20 @@
   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 0.3);
   pointer-events: auto;
 }
+/* price tag */
+.price_tag {
+  text-align: center;
+  color: #5557d6;
+  background-color: white;
+  width: 90%;
+  height: 45%;
+  margin-bottom: 2rem;
+  border-radius: 25% 75% 25% 75%;
+  font: bold clamp(12px, 14px, 16px) / clamp(1vw, 1.5vw, 2vw) "Montserrat",
+    sans-serif;
+}
 
+/*  ul > li */
 .detail_list ul {
   list-style: none;
   text-align: left;
@@ -99,15 +120,31 @@ ul li:before {
   padding-right: 1rem;
 }
 
-.price_tag {
-  text-align: center;
-  color: #5557d6;
-  background-color: white;
-  width: 90%;
-  height: 45%;
-  /* padding: 2rem; */
-  margin-bottom: 2rem;
-  border-radius: 25% 75% 25% 75%;
-  font: bold clamp(14px, 16px, 18px) / clamp(1.5vh, 3vh, 4vh) "Montserrat",
-    sans-serif;
+/* .pack_container {
+  max-width: 100%;
+  height: max-content;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.pack_service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  height: fit-content;
+  padding: 5px;
+  margin: 15px auto;
+  background-color: rgba(207, 117, 153, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  -webkit-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 0.6);
+  -moz-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 0.6);
+  box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 0.6);
+}
+
+*/
