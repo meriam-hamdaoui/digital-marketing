@@ -15,17 +15,17 @@
 .reason_card {
   display: flex;
   max-width: 90%;
-  height: 28vh;
+  height: 25vh;
   margin: 3%;
 }
 
 .reason_img {
   text-align: center;
-  width: 80%;
+  width: 75%;
 }
 
 .reason_img img {
-  max-width: 85%;
+  max-width: 80%;
 }
 .reason_text {
   font: normal 400 clamp(11px, 14px, 14px) / clamp(1vw, 1.5vw, 2vw) "Poppins",
