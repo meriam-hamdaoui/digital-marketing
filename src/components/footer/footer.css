@@ -11,7 +11,7 @@ footer {
 }
 .footer_agency,
 .footer_contact_agency {
-  width: 45%;
+  width: 48%;
 }
 .footer_img_container img {
   max-width: 60%;
@@ -27,6 +27,9 @@ footer {
     sans-serif;
   color: #371a74;
   text-align: justify;
+}
+.footer_about_agency p {
+  line-height: 3vh;
 }
 .bottom_footer {
   font-weight: bolder;
