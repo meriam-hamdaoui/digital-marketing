@@ -1,9 +1,73 @@
-.top_footer {
+footer {
+  max-width: 100%;
+  height: max-content;
+  padding: auto;
+}
+
+.footer_agency,
+.footer_contact_agency {
+  width: 45%;
+}
+.footer_img_container img {
+  max-width: 65%;
+}
+.footer_about_agency,
+.footer_img_container {
+  width: 45%;
+}
+.footer_about_agency p,
+.footer_contacts p,
+.bottom_footer {
+  font: normal clamp(12px, 17px, 19px) / clamp(1vh, 2.2vh, 2.5vh) "Poppins",
+    sans-serif;
+  color: #371a74;
+  text-align: justify;
+}
+.bottom_footer {
+  font-weight: bolder;
+}
+h4.agency_name {
+  padding: 10px 0;
+  font-size: clamp(14px, 18px, 20px);
+}
+.footer_contacts {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  width: 60%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .top_footer {
+    flex-direction: column;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .top_footer {
+    flex-direction: column;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .top_footer {
+    flex-direction: column;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
+
+/* .top_footer {
   width: auto;
   padding: 1.5rem;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
 }
 .footer_info {
   width: 50%;
@@ -22,9 +86,7 @@
     sans-serif;
   color: #371a74;
 }
-.social-icons {
-  width: 45%;
-}
+
 
 .bottom_footer {
   font-size: large;
@@ -32,4 +94,4 @@
   line-height: 1.5rem;
   color: #17285e !important;
   padding: 1rem;
-}
+} */

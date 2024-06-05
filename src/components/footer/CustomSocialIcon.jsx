@@ -15,14 +15,6 @@ const CustomSocialIcon = ({ url, size }) => {
         onClick={handleClick}
       />
     </div>
-    // <a
-    //   href={url}
-    //   _target="_blank"
-    //   rel="noopener noreferrer"
-    //   style={{ display: "inline-block", height: size, width: size }}
-    // >
-    //   <SocialIcon url={url} style={{ height: "100%", width: "100%" }} />
-    // </a>
   );
 };
 
