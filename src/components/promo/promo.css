@@ -20,14 +20,13 @@
 }
 
 .promo_logo img {
-  max-width: 15%;
-  /* max-height: 12%; */
+  max-width: 10%;
 }
 
 .profiter > h1,
 .sponsoring > h1 {
   /* font: bold 3rem/1.5rem "Montserrat", sans-serif; */
-  font: bold clamp(14px, 18px, 20px) / clamp(1.5vh, 1vw, 2vh) "Montserrat",
+  font: bold clamp(20px, 22px, 24px) / clamp(1vw, 1.5vw, 2vw) "Montserrat",
     sans-serif;
   letter-spacing: 0.1rem;
   text-align: center;
