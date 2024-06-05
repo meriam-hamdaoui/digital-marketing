@@ -8,7 +8,7 @@ const About = () => {
       <div className="section_title text-center qui-somme-nous">
         Qui Sommes-Nous?
       </div>
-      <div className="about_container d-flex">
+      <div className="about_container">
         <div className="trendy_broch">
           <img
             src={trendyBrochure}
@@ -16,7 +16,7 @@ const About = () => {
             // className="img-fluid"
           />
         </div>
-        <div className="paragraph_font d-flex align-items-center justify-content-around">
+        <div className="about_paragraph paragraph_font">
           <div className="shrink_text">
             <p className="agence_marketing">
               <b className="agency_name">Agence marketing digital </b>
