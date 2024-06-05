@@ -1,6 +1,6 @@
 .promo {
   width: 100%;
-  height: fit-content;
+  height: max-content;
   padding: 1% 8%;
 
   display: flex;
@@ -20,7 +20,7 @@
 }
 
 .promo_logo img {
-  max-width: 11%;
+  max-width: 12%;
 }
 
 .profiter > h1,
