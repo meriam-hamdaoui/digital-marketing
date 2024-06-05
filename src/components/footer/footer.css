@@ -23,7 +23,7 @@ footer {
 .footer_about_agency p,
 .footer_contacts p,
 .bottom_footer {
-  font: normal clamp(10px, 14px, 14px) / clamp(1vh, 2vh, 2vh) "Poppins",
+  font: normal clamp(10px, 14px, 14px) / clamp(1vh, 2.2vh, 2.5vh) "Poppins",
     sans-serif;
   color: #371a74;
   text-align: justify;
@@ -40,7 +40,7 @@ h4.agency_name {
 }
 
 .social-icons {
-  width: 60%;
+  width: 70%;
 }
 
 /* Small devices (landscape phones, 576px and up) */
