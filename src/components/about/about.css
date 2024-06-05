@@ -39,7 +39,7 @@ b.agency_name {
 b.agence_marketing,
 b.notre_mission {
   font-size: clamp(1rem, 1.2vw, 2.2rem);
-  line-height: clamp(1rem, 1.5vw, 2rem);
+  line-height: clamp(1rem, 1.2vw, 2rem);
 }
 
 /* Small devices (landscape phones, 576px and up) */
