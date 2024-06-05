@@ -1,6 +1,6 @@
 .promo {
   width: 100%;
-  height: max-content;
+  height: fit-content;
   padding: 1% 8%;
 
   display: flex;
@@ -20,7 +20,7 @@
 }
 
 .promo_logo img {
-  max-width: 10%;
+  max-width: 11%;
 }
 
 .profiter > h1,
@@ -37,7 +37,7 @@
 .sponsoring > p {
   color: #371a74 !important;
   /* font: normal 400 1rem/1rem "Poppins", sans-serif; */
-  font: bold clamp(6px, 9px, 11px) / clamp(1rem, 0.5vw, 2rem) "Poppins",
+  font: bold clamp(5px, 8px, 11px) / clamp(1rem, 0.5vw, 2rem) "Poppins",
     sans-serif;
   text-align: center;
 }
