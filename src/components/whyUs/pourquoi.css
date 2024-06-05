@@ -3,8 +3,9 @@
   height: max-content;
   margin-top: 3%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 10px;
+  text-align: center;
   /* display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -13,20 +14,20 @@
 
 .reason_card {
   display: flex;
-  max-width: 90%;
+  max-width: 100%;
   height: max-content;
 }
 
 .reason_img {
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 
 .reason_img img {
-  max-width: 90%;
+  max-width: 95%;
 }
 .reason_text {
-  font: normal 400 clamp(11px, 12px, 14px) / clamp(1vw, 1.2vw, 1.5vw) "Poppins",
+  font: normal 400 clamp(11px, 13px, 14px) / clamp(1vw, 1.3vw, 1.5vw) "Poppins",
     sans-serif;
   width: 100%;
   text-align: justify;
