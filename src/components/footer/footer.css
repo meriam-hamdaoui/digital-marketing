@@ -14,16 +14,16 @@ footer {
   width: 45%;
 }
 .footer_img_container img {
-  max-width: 50%;
+  max-width: 60%;
 }
 .footer_about_agency,
 .footer_img_container {
-  width: 45%;
+  width: 48%;
 }
 .footer_about_agency p,
 .footer_contacts p,
 .bottom_footer {
-  font: normal clamp(10px, 14px, 14px) / clamp(1vh, 2.2vh, 2.5vh) "Poppins",
+  font: normal clamp(10px, 14px, 14px) / clamp(1vh, 2.5vh, 3vh) "Poppins",
     sans-serif;
   color: #371a74;
   text-align: justify;
