@@ -50,7 +50,7 @@
 }
 
 .pack_detail {
-  font: normal 200 clamp(12px, 14px, 16px) / clamp(0.5vw, 1.5vw, 1.5vw)
+  font: normal 200 clamp(12px, 15px, 16px) / clamp(0.5vw, 1.5vw, 1.5vw)
       "Poppins",
     sans-serif;
   background-image: linear-gradient(
@@ -105,11 +105,10 @@
   background-color: white;
   width: 90%;
   height: 50%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 1rem auto;
   border-radius: 25% 75% 25% 75%;
   padding: 2px;
-  font: bold clamp(12px, 13px, 16px) / clamp(1vw, 1.5vw, 2vw) "Montserrat",
+  font: bold clamp(12px, 14px, 16px) / clamp(1vw, 1.5vw, 2vw) "Montserrat",
     sans-serif;
 }
 
