@@ -26,7 +26,7 @@
   max-width: 50%;
 }
 .reason_text {
-  font: normal 400 clamp(14px, 16px, 20px) / clamp(2vh, 3vh, 5vh) "Poppins",
+  font: normal 400 clamp(11px, 12px, 14px) / clamp(1vw, 1.5vw, 2vw) "Poppins",
     sans-serif;
   width: 100%;
   text-align: justify;
