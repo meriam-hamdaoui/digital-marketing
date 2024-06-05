@@ -19,7 +19,7 @@ section.acceuil {
 }
 
 .acceuil_img img {
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .acceuil_img,
@@ -96,7 +96,7 @@ section.acceuil {
   flex-direction: column;
   justify-content: space-between;
   font-size: clamp(14px, 16px, 18px);
-  line-height: clamp(2vw, 2.5vw, 3vw);
+  line-height: clamp(2vw, 2vw, 3vw);
 }
 
 .p_author {
