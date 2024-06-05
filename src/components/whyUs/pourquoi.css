@@ -16,6 +16,7 @@
   display: flex;
   max-width: 90%;
   height: 25vh;
+  margin: 2%;
 }
 
 .reason_img {
