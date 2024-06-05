@@ -33,8 +33,8 @@ export const handleResize = () => {
   const icons = document.querySelectorAll(".icon");
   icons.forEach((icon) => {
     if (window.innerWidth <= 1200) {
-      icon.style.width = "38px";
-      icon.style.height = "38px";
+      icon.style.width = "40px";
+      icon.style.height = "40px";
     } else {
       icon.style.width = "30px";
       icon.style.height = "30px";
@@ -44,8 +44,8 @@ export const handleResize = () => {
 
 const IconComponent = ({ url }) => {
   const iconStyle = {
-    width: "38px", // Default width
-    height: "38px", // Default height
+    width: "40px", // Default width
+    height: "40px", // Default height
   };
 
   return <SocialIcon className="icon" url={url} style={iconStyle} />;

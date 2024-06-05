@@ -15,11 +15,11 @@ section.acceuil {
 }
 
 .acceuil_img {
-  max-width: 65%;
+  max-width: 50%;
 }
 
 .acceuil_img img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .acceuil_img,
