@@ -14,7 +14,7 @@ const PackCard = ({ choice }) => {
       <br />
       <div className="detail_list">
         <div className="price_tag text-center">{price}</div>
-        <ul>
+        <ul className="shrink_text">
           {details.map((el) => (
             <li key={uuidv4()}>{el}</li>
           ))}
