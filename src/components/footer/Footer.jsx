@@ -51,13 +51,13 @@ const Footer = () => {
             <div className="social-icons d-flex align-items-center justify-content-around">
               <CustomSocialIcon
                 url={"https://instagram.com/trendy.agency"}
-                size={35}
+                size={25}
               />
               <CustomSocialIcon
                 url={
                   "https://www.facebook.com/profile.php?id=61559745715549&mibextid=ZbWKwL"
                 }
-                size={35}
+                size={25}
               />
             </div>
           </div>

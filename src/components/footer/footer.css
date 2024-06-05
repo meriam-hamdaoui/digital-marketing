@@ -18,7 +18,7 @@ footer {
 .footer_about_agency p,
 .footer_contacts p,
 .bottom_footer {
-  font: normal clamp(12px, 17px, 19px) / clamp(1vh, 2.2vh, 2.5vh) "Poppins",
+  font: normal clamp(10px, 12px, 14px) / clamp(1vh, 1.5vh, 2vh) "Poppins",
     sans-serif;
   color: #371a74;
   text-align: justify;
@@ -28,7 +28,7 @@ footer {
 }
 h4.agency_name {
   padding: 10px 0;
-  font-size: clamp(14px, 18px, 20px);
+  font-size: clamp(12px, 14px, 16px);
 }
 .footer_contacts {
   margin-bottom: 20px;
