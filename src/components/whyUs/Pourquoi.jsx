@@ -11,7 +11,10 @@ const Pourquoi = () => {
   useEffect(() => loadReasons(), []);
 
   return (
-    <section id="whyUs" className="section_pourquoi">
+    <section
+      id="whyUs"
+      className="section_pourquoi d-flex align-items-center justify-content-center"
+    >
       <div className="section_title text-center">Pourquoi Nous?</div>
       <div className="reason_container">
         {reasons.map((reason) => (
