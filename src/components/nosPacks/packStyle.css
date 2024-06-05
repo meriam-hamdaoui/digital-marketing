@@ -23,7 +23,7 @@
   padding: 20px;
   width: 100%;
   margin: 25px auto;
-  height: 45vh;
+  height: 48vh;
   background-color: rgba(207, 117, 153, 0.2);
   border: 2px solid rgba(255, 255, 255, 1);
   border-top-right-radius: 10rem;
@@ -34,15 +34,15 @@
 }
 
 .pack_name {
-  font: bold clamp(14px, 18px, 20px) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
+  font: bold clamp(14px, 16px, 18px) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
     sans-serif;
   color: rgb(55, 26, 116, 0.75);
   padding: 5px;
 }
 .pack_card {
   /* border: 2px solid black; */
-  width: 70%;
-  height: 40vh;
+  width: 80%;
+  height: 50vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,8 +65,8 @@
   padding: 15px 5px;
   position: relative;
   border-radius: 1rem;
-  width: 40%;
-  height: 90%;
+  width: 45%;
+  height: 100%;
   margin: auto 20px;
 }
 
