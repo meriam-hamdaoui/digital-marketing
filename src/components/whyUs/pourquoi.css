@@ -15,7 +15,7 @@
 .reason_card {
   display: flex;
   max-width: 90%;
-  height: 30vh;
+  height: 25vh;
 }
 
 .reason_img {
@@ -24,7 +24,7 @@
 }
 
 .reason_img img {
-  max-width: 60%;
+  max-width: 80%;
 }
 .reason_text {
   font: normal 400 clamp(11px, 14px, 14px) / clamp(1vw, 1.5vw, 2vw) "Poppins",
