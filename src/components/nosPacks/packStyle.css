@@ -49,7 +49,7 @@
 }
 
 .pack_detail {
-  font: normal 200 clamp(12px, 14px, 16px) / clamp(0.5vw, 1.4vw, 1.5vw)
+  font: normal 200 clamp(12px, 14px, 16px) / clamp(0.5vw, 1.5vw, 1.5vw)
       "Poppins",
     sans-serif;
   background-image: linear-gradient(
@@ -67,7 +67,7 @@
   border-radius: 1rem;
   width: 45%;
   height: 100%;
-  margin: auto 20px;
+  margin: 5px 20px;
 }
 
 /* ribbon tag */
@@ -103,10 +103,12 @@
   color: #5557d6;
   background-color: white;
   width: 90%;
-  height: 45%;
+  height: 50%;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 25% 75% 25% 75%;
-  font: bold clamp(12px, 14px, 16px) / clamp(1vw, 1.5vw, 2vw) "Montserrat",
+  padding: 2px;
+  font: bold clamp(12px, 13px, 16px) / clamp(1vw, 1.5vw, 2vw) "Montserrat",
     sans-serif;
 }
 
