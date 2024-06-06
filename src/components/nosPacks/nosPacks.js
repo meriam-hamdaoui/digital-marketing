@@ -20,7 +20,7 @@ export const nosPacks = [
         pack: "Pack AVANCER",
         style: {
           color: "white",
-          background: "rgba(184, 115, 51, 0.65)",
+          background: "rgba(255, 127, 39, 0.6)",
         },
         price: "150 dt/mois",
         details: ["sponsoring post", "stories", "méthodologies publicitaires"],

@@ -13,7 +13,7 @@ const PackCard = ({ choice }) => {
       </div>
       <br />
       <div className="detail_list">
-        <div className="price_tag text-center">{price}</div>
+        <div className="price_tag shrink_text text-center">{price}</div>
         <ul className="shrink_text">
           {details.map((el) => (
             <li key={uuidv4()}>{el}</li>
