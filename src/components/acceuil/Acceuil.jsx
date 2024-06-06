@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "./acceuil.css";
 import instaGirl from "../../assets/img/insta-girl-removebg.png";
-// import { SocialIcon } from "react-social-icons";
 import IconComponent, { URL, handleResize } from "./IconComponent";
 
 const Acceuil = () => {
