@@ -15,8 +15,8 @@ const NavBar = () => {
           <img
             src={trendy}
             alt="trendy-logo"
-            width={50}
-            height={50}
+            width={"7%"}
+            height={"7%"}
             className="d-inline-block align-top img-fluid"
           />
           <span className="agency_name ms-3">TRENDY AGENCY</span>
@@ -25,7 +25,7 @@ const NavBar = () => {
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="ms-auto my-2 my-lg-0 nav_menu"
-            style={{ maxHeight: "8rem" }}
+            style={{ maxHeight: "6rem" }}
             navbarScroll
           >
             <Link smooth to="#acceuil" className="nav_link">
