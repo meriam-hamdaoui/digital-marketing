@@ -9,7 +9,7 @@ section {
 }
 
 .agency_name {
-  /* style weight size/line family 1.5rem/2rem*/
+  /* style weight size/line family */
   font-optical-sizing: auto;
   color: #371a74;
   white-space: nowrap; /* Prevent text from wrapping */
@@ -38,6 +38,4 @@ section {
     sans-serif;
   text-align: justify;
   letter-spacing: 0.1rem;
-
-  /* color: #371a74; */
 }

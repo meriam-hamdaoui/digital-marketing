@@ -12,7 +12,7 @@ const Pourquoi = () => {
 
   return (
     <section
-      id="whyUs"
+      id="pourquoi"
       className="section_pourquoi d-flex align-items-center justify-content-center"
     >
       <div className="section_title text-center">Pourquoi Nous?</div>

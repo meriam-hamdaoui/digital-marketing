@@ -3,6 +3,7 @@ import "./navBar.css";
 import trendy from "../../assets/img/trendy-logo-removebg.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
+import { navLinks } from "./navLinks";
 
 const NavBar = () => {
   return (
@@ -28,24 +29,16 @@ const NavBar = () => {
             style={{ maxHeight: "6rem" }}
             navbarScroll
           >
-            <Link smooth to="#acceuil" className="nav_link">
-              Acceuil
-            </Link>
-            <Link smooth to="#about" className="nav_link">
-              Qui Sommes-Nous?
-            </Link>
-            <Link smooth to="#services" className="nav_link">
-              Nos Services
-            </Link>
-            <Link smooth to="#whyUs" className="nav_link">
-              Pourquoi Nous?
-            </Link>
-            <Link smooth to="#packs" className="nav_link">
-              Nos Packs
-            </Link>
-            <Link smooth to="#footer" className="nav_link">
-              Contactez-nous
-            </Link>
+            {navLinks.map((link) => (
+              <Link
+                key={link.id}
+                smooth
+                to={`#${link.id}`}
+                className="nav_link"
+              >
+                {link.name}
+              </Link>
+            ))}
           </Nav>
         </Navbar.Collapse>
       </Container>
