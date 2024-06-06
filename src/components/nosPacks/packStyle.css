@@ -1,31 +1,34 @@
 .pack_section {
+  width: 100%;
   height: max-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   -webkit-box-shadow: 0px 1px 8px 4px rgba(132, 44, 182, 0.1);
   -moz-box-shadow: 0px 1px 8px 4px rgba(132, 44, 182, 0.1);
   box-shadow: 0px 1px 8px 4px rgba(132, 44, 182, 0.1);
 }
 
 .pack_container {
-  background-color: white;
+  border: 1px solid red;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 15px;
   display: flex;
+  flex-direction: column;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
-  width: 85%;
-  height: max-content;
+  padding: 10px;
+  max-width: 80%;
+  max-height: 70%; */
 }
 .pack_service_card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
-  width: 100%;
-  margin: 25px auto;
-  height: 70vh;
   background-color: rgba(207, 117, 153, 0.2);
   border: 2px solid rgba(255, 255, 255, 1);
   border-top-right-radius: 10rem;
@@ -33,26 +36,31 @@
   -webkit-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 1);
   -moz-box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 1);
   box-shadow: inset 0px 0px 20px 1px rgb(255, 255, 255, 1);
+  /*  */
+  width: 90%;
+  min-width: 100%;
+  margin: 15px auto;
+  padding: 15px;
+  height: max-content;
 }
 
 .pack_name {
-  font: bold clamp(16px, 1.5vw, 18px) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
+  font: bold clamp(16px, 1.8vw, 18px) / clamp(1rem, 1.5vw, 2rem) "Montserrat",
     sans-serif;
   color: rgb(55, 26, 116, 0.75);
-  padding: 6px;
+  padding: 5px;
 }
 .pack_card {
   width: 75%;
   max-width: 90%;
-  height: 50vh;
+  height: max-content;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .pack_detail {
-  font: normal 200 clamp(12px, 15px, 16px) / clamp(0.5vw, 1.5vw, 1.5vw)
-      "Poppins",
+  font: normal 200 clamp(12px, 2vw, 14px) / clamp(1rem, 1.5vw, 2rem) "Poppins",
     sans-serif;
   background-image: linear-gradient(
     45deg,
@@ -64,12 +72,12 @@
   -moz-box-shadow: 0px 0px 15px 1px rgb(207, 117, 153, 0.5);
   box-shadow: 0px 0px 15px 1px rgb(207, 117, 153, 0.5);
   color: white;
-  padding: 15px 5px;
+  padding: 8px;
   position: relative;
   border-radius: 1rem;
-  width: 45%;
-  height: 100%;
-  margin: 5px 20px;
+  width: 40%;
+  height: max-content;
+  margin: 10px;
 }
 
 /* ribbon tag */
