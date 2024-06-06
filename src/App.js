@@ -18,10 +18,10 @@ function App() {
       <About />
       <ServiceSection />
       <Pourquoi />
-      <hr style={{ color: "rgba(207, 117, 153, 1)" }} />
+      {/* <hr style={{ color: "rgba(207, 117, 153, 1)" }} /> */}
 
       <PackSection />
-      <hr style={{ color: "rgba(207, 117, 153, 1)" }} />
+      {/* <hr style={{ color: "rgba(207, 117, 153, 1)" }} /> */}
 
       <Footer />
     </div>

@@ -3,27 +3,28 @@
   height: max-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 2% auto;
 }
 .trendy_broch {
-  max-width: 45%;
+  max-width: 40%;
   text-align: center;
-  margin: 1%;
+  margin: 2px;
 }
 
 .trendy_broch img {
-  max-width: 55%;
-  height: 60%;
+  max-width: 60%;
+  filter: drop-shadow(1px 5px 3px rgba(255, 127, 39, 0.5));
 }
 .about_paragraph {
   margin-top: 25px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: baseline;
-  font-size: clamp(11px, 13px, 14px);
-  line-height: clamp(1vw, 1.4vw, 1.5vw);
+  font-size: clamp(12px, 1.2vw, 14px);
+  line-height: clamp(1rem, 1.5vw, 1.9rem);
   color: #371a74;
 }
 
@@ -33,13 +34,13 @@ b.agency_name {
 /* style weight size/line family */
 .agence_marketing,
 .notre_mission {
-  width: 75%;
+  width: 80%;
 }
 
 b.agence_marketing,
 b.notre_mission {
-  font-size: clamp(1rem, 1.2vw, 2.2rem);
-  line-height: clamp(1rem, 1.2vw, 2rem);
+  font-size: clamp(14px, 1.2vw, 16px);
+  line-height: clamp(1rem, 1.5vw, 1.9rem);
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -47,23 +48,47 @@ b.notre_mission {
   .trendy_broch {
     display: none;
   }
+  .about_paragraph {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about_paragraph,
+  .agence_marketing,
+  .notre_mission {
+    max-width: 100%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-  .about_container {
-    flex-direction: row;
+  /* .trendy_broch {
+    display: none;
+  } */
+  .about_container,
+  .about_paragraph {
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+  .about_paragraph,
+  .agence_marketing,
+  .notre_mission {
+    max-width: 100%;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
   .about_container {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+  .about_paragraph,
+  .agence_marketing,
+  .notre_mission {
+    max-width: 100%;
   }
 }
 

@@ -13,7 +13,7 @@ const About = () => {
           <img
             src={trendyBrochure}
             alt="trendy brochure"
-            // className="img-fluid"
+            className="img-fluid"
           />
         </div>
         <div className="about_paragraph paragraph_font">
