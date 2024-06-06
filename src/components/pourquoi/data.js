@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
-import reason1 from "../../assets/img/plan-presentation.png";
-import reason2 from "../../assets/img/mobile-icons.png";
-import reason3 from "../../assets/img/client.png";
-import reason4 from "../../assets/img/speak-client.png";
+import reason1 from "../../assets/img/strategie-removebg.png";
+import reason2 from "../../assets/img/mobile-icons-removebg.png";
+import reason3 from "../../assets/img/client-removebg.png";
+import reason4 from "../../assets/img/resultat-1-removebg.png";
 
 export const reasonTab = [
   {
