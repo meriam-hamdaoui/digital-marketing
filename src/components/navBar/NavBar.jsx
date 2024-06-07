@@ -12,12 +12,16 @@ const NavBar = () => {
       className="navbar_custom navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary"
     >
       <Container fluid className="navbar_container">
-        <Navbar.Brand href="#acceuil" className="d-flex align-items-center">
+        <Navbar.Brand
+          href="#acceuil"
+          className="navbar_brand d-flex justify-content-center align-items-center"
+          style={{ width: "20%" }}
+        >
           <img
             src={trendy}
             alt="trendy-logo"
-            width={"7%"}
-            height={"7%"}
+            width={"20%"}
+            height={"15%"}
             className="d-inline-block align-top img-fluid"
           />
           <span className="agency_name ms-3">TRENDY AGENCY</span>

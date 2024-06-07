@@ -10,12 +10,14 @@
 }
 
 .navbar_container {
-  width: 85%;
+  width: 80%;
 }
+
 .nav_menu {
-  width: 100%;
+  width: 85%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 .navbar_custom .nav_link:link {
   color: #371a74;
@@ -29,7 +31,4 @@
 }
 .navbar_custom .nav_link:hover {
   color: rgb(125, 32, 136, 0.75) !important;
-}
-.navbar_custom .nav_link:active {
-  color: #17285e !important;
 }
