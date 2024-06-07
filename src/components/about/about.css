@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2% auto;
+  margin: 20px auto 10px;
 }
 .trendy_broch {
   max-width: 40%;
@@ -15,7 +15,7 @@
 
 .trendy_broch img {
   max-width: 60%;
-  filter: drop-shadow(1px 5px 3px rgba(255, 127, 39, 0.5));
+  filter: drop-shadow(1px 5px 3px rgba(249, 140, 67, 0.6));
 }
 .about_paragraph {
   margin-top: 25px;
