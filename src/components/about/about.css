@@ -44,7 +44,7 @@ b.notre_mission {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .trendy_broch {
     display: none;
   }
@@ -61,7 +61,7 @@ b.notre_mission {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* .trendy_broch {
     display: none;
   } */
@@ -79,7 +79,7 @@ b.notre_mission {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .about_container {
     flex-direction: column;
     justify-content: space-around;
