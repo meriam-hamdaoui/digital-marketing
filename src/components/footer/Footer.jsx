@@ -11,12 +11,7 @@ const Footer = () => {
       <div className="top_footer d-flex flex-row align-items-center justify-content-around">
         <div className="footer_agency d-flex flex-row align-items-center justify-content-around">
           <div className="footer_img_container text-center">
-            <img
-              src={trendyAgency}
-              alt="trendy-agency"
-              // width={"30%"}
-              // height={"30%"}
-            />
+            <img src={trendyAgency} alt="trendy-agency" />
           </div>
 
           <div className="footer_about_agency">
