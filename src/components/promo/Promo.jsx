@@ -9,7 +9,6 @@ const Promo = () => {
         <h1>
           Profitez <span>20%*</span>
         </h1>
-
         <p>*lors du mois d'ouverture</p>
       </div>
 
@@ -17,7 +16,7 @@ const Promo = () => {
         <img src={animateLogo} alt="agency logo" className="img-fluid" />
       </div>
 
-      <div className="sponsoring">
+      <div className="sponsoring text-center">
         <h1>
           Sponsoring <span className="highlight">GRATUIT</span>
         </h1>
