@@ -15,7 +15,7 @@ const ServiceSection = () => {
       id="services"
       className="service_section d-flex flex-column justify-content-between align-items-center"
     >
-      <div className="section_title text-center">Nos Services</div>
+      <h2 className="section_title text-center">Nos Services</h2>
       <div className="card_container">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service} />

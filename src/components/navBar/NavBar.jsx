@@ -12,19 +12,13 @@ const NavBar = () => {
       className="navbar_custom navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary"
     >
       <Container fluid className="navbar_container">
-        <Navbar.Brand
-          href="#acceuil"
-          className="navbar_brand d-flex justify-content-center align-items-center"
-          style={{ width: "20%" }}
-        >
+        <Navbar.Brand href="#acceuil" className="navbar_brand">
           <img
             src={trendy}
             alt="trendy-logo"
-            width={"20%"}
-            height={"15%"}
-            className="d-inline-block align-top img-fluid"
+            className="d-inline-block align-top"
           />
-          <span className="agency_name ms-3">TRENDY AGENCY</span>
+          <span className="trendy_agency ms-3">TRENDY AGENCY</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

@@ -1,5 +1,7 @@
 section.acceuil {
-  padding: 25px 80px;
+  /* padding: auto 10%; */
+  padding-left: 5%;
+  padding-right: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

@@ -1,19 +1,51 @@
+/* the default css style for react app */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* custom style */
 section {
   max-width: 100%;
-  height: fit-content;
-  padding: 70px 120px 25px;
+  height: clamp(25%, 50%, 100%);
+  /* padding: 70px 120px 25px; */
+  padding: 6% 10% 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  overflow: auto; /* scroll if content exceeds max-height */
 }
 
-.agency_name {
+.section_title {
+  color: #371a74;
+  font: normal 600 clamp(16px, 1.5vw, 40px) / clamp(1rem, 1.2vw, 1.5rem)
+      "Montserrat",
+    sans-serif;
+  white-space: nowrap;
+}
+
+.trendy_agency {
   font-optical-sizing: auto;
   color: #371a74;
   white-space: nowrap; /* Prevent text from wrapping */
   /* style weight size/line family */
-  font: normal 700 clamp(12px, 1.2vw, 16px) / clamp(0.5vw, 0.5vw, 1rem)
+  font: normal 700 clamp(0.5rem, 1.25vw, 3rem) / clamp(0.5rem, 1vw, 1.5rem)
       "Poppins",
     sans-serif;
 }
@@ -23,14 +55,6 @@ section {
   text-overflow: ellipsis;
   word-wrap: break-word;
   display: block;
-}
-
-.section_title {
-  color: #371a74;
-  font: normal 600 clamp(16px, 1.5vw, 22px) / clamp(0.5rem, 1.2vw, 1.5rem)
-      "Montserrat",
-    sans-serif;
-  white-space: nowrap;
 }
 
 .paragraph_font {

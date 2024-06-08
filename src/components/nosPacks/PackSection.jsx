@@ -13,11 +13,11 @@ const PackSection = () => {
 
   return (
     <section id="packs" className="pack_section">
-      <div className="section_title text-center">Nos Packs</div>
+      <h2 className="section_title text-center">Nos Packs</h2>
       <div className="pack_container">
         {packs.map((pack) => (
           <div key={pack.id} className="pack_service_card">
-            <div className="pack_name text-center">{pack.name}</div>
+            <h4 className="pack_name text-center">{pack.name}</h4>
             <div className="pack_card">
               {pack.choices.map((choice) => (
                 <PackCard key={choice.id} choice={choice} />
