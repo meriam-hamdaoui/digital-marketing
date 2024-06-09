@@ -119,3 +119,24 @@ ul li:before {
   content: "✓";
   padding-right: 4px;
 }
+
+@media (max-width: 576px) {
+  .pack_card {
+    flex-direction: column;
+    height: max-content;
+  }
+}
+@media (max-width: 768px) {
+  .pack_card {
+    flex-direction: column;
+    height: max-content;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .pack_card {
+    flex-direction: column;
+    height: max-content;
+  }
+}

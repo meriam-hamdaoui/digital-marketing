@@ -128,7 +128,7 @@ export const packSansRibbon = [
       {
         price: "A partir 100 dt/mois",
         details: [
-          ` Les collaborations avec les influencers30 %
+          ` Les collaborations avec les influencers 30%
           de frais de contrat`,
         ],
       },

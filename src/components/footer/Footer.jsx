@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="top_footer d-flex flex-row align-items-center justify-content-around">
-        <div className="footer_agency d-flex flex-row align-items-center justify-content-around">
+        <div className="footer_agency d-flex flex-row align-items-center justify-content-center">
           <div className="footer_img_container text-center">
             <img src={digitalStrategie} alt="trendy-agency" />
           </div>

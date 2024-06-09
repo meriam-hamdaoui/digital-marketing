@@ -1,18 +1,18 @@
 footer {
   max-width: 100%;
-  height: max-content;
+  height: clamp(30%, 60%, 100%);
   padding: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .top_footer {
-  margin: 25px auto 10px;
-  width: 80%;
+  margin: 30px auto 10px;
+  width: 90%;
 }
 .footer_agency,
 .footer_contact_agency {
-  width: 48%;
+  width: 50%;
 }
 .footer_img_container img {
   max-width: 60%;
@@ -24,7 +24,7 @@ footer {
 .footer_about_agency p,
 .footer_contacts p,
 .bottom_footer {
-  font: normal clamp(10px, 12px, 14px) / clamp(1vh, 2.2vh, 2.5vh) "Poppins",
+  font: normal clamp(10px, 1vw, 14px) / clamp(1vh, 1.2vh, 2.5vh) "Poppins",
     sans-serif;
   color: #371a74;
   text-align: justify;
@@ -33,7 +33,8 @@ footer {
   line-height: 3vh;
 }
 .bottom_footer {
-  font-weight: bolder;
+  font-weight: bold;
+  padding: 0 auto 25px;
 }
 h4.trendy_agency {
   padding: 10px 0;
@@ -44,7 +45,7 @@ h4.trendy_agency {
 }
 
 .social-icons {
-  width: 70%;
+  width: 100%;
 }
 
 /* Small devices (landscape phones, 576px and up) */
