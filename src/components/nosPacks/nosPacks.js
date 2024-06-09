@@ -1,26 +1,26 @@
 import { v4 as uuidv4 } from "uuid";
 
-export const nosPacks = [
+export const packAvecRibbon = [
   {
     id: uuidv4(),
     name: "Pack Gestion Médias Sociaux",
     choices: [
       {
         id: uuidv4(),
-        pack: "Pack SIMPLE",
+        pack: "Pack BASIQUE",
         style: {
-          color: "#5557d6",
-          background: "rgba(230, 230, 250, 0.5)",
+          color: "#523298",
+          background: "white",
         },
         price: "70 dt/mois",
         details: ["sponsoring simple : 50 post", "Statistiques"],
       },
       {
         id: uuidv4(),
-        pack: "Pack AVANCER",
+        pack: ` Pack SILVER`,
         style: {
           color: "white",
-          background: "rgba(255, 127, 39, 0.6)",
+          background: "rgba(192, 192, 192, 0.8)",
         },
         price: "150 dt/mois",
         details: ["sponsoring post", "stories", "méthodologies publicitaires"],
@@ -50,7 +50,7 @@ export const nosPacks = [
         pack: "Pack SILVER",
         style: {
           color: "white",
-          background: "rgba(192, 192, 192, 0.7)",
+          background: "rgba(192, 192, 192, 0.8)",
         },
         price: "800 dt/mois",
         details: [
@@ -89,7 +89,7 @@ export const nosPacks = [
         pack: "Pack SILVER",
         style: {
           color: "white",
-          background: "rgba(192, 192, 192, 0.7)",
+          background: "rgba(192, 192, 192, 0.8)",
         },
         price: "1000 dt/mois",
         details: [
@@ -104,18 +104,13 @@ export const nosPacks = [
       },
     ],
   },
-
+];
+export const packSansRibbon = [
   {
     id: uuidv4(),
     name: `Formation et Consulting `,
-    choices: [
+    choice: [
       {
-        id: uuidv4(),
-        pack: "Pack GOLD",
-        style: {
-          color: "white",
-          background: "rgba(255, 169, 1, 0.75)",
-        },
         price: `A partir de 1000 jusqu'à 2500`,
         details: [
           `Stratégie de Médias Sociaux`,
@@ -129,18 +124,12 @@ export const nosPacks = [
   {
     id: uuidv4(),
     name: "Pack Influence Marketing",
-    choices: [
+    choice: [
       {
-        id: uuidv4(),
-        pack: "Pack BASIQUE",
-        style: {
-          color: "#523298",
-          background: "white",
-        },
         price: "A partir 100 dt/mois",
         details: [
           ` Les collaborations avec les influencers30 %
-            de frais de contrat`,
+          de frais de contrat`,
         ],
       },
     ],
