@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
-import trendyAgencyTitle from "../../assets/img/trendy_agency_title.png";
-import logoAbout from "../../assets/img/trendy_logo.png";
+import trendyAgencyTitle from "assets/img/trendy_agency_title.png";
+import logoAbout from "assets/img/trendy_logo.png";
 
 const About = () => {
   return (

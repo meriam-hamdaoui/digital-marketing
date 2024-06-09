@@ -1,6 +1,6 @@
 import React from "react";
 import "./navBar.css";
-import trendy from "../../assets/img/navbar_brand.png";
+import trendy from "assets/img/navbar_brand.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
 import { navLinks } from "./navLinks";

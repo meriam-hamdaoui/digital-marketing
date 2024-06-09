@@ -1,6 +1,6 @@
 import React from "react";
 import "./promo.css";
-import trendyLogo from "../../assets/img/trendy_logo.png";
+import trendyLogo from "assets/img/trendy_logo.png";
 
 const Promo = () => {
   return (

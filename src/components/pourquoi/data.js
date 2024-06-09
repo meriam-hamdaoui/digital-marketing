@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
-import strategiePourquoi from "../../assets/img/strategie_pourquoi.png";
-import mobile_icons from "../../assets/img/mobile_icons.png";
-import client from "../../assets/img/client_pourquoi.png";
-import visionPourquoi from "../../assets/img/vision_pourquoi.png";
+import strategiePourquoi from "assets/img/strategie_pourquoi.png";
+import mobile_icons from "assets/img/mobile_icons.png";
+import client from "assets/img/client_pourquoi.png";
+import visionPourquoi from "assets/img/vision_pourquoi.png";
 
 export const reasonTab = [
   {

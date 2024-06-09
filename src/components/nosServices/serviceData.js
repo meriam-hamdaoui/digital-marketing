@@ -1,13 +1,13 @@
 import { v4 as uuidv4 } from "uuid";
-import formationConsulting from "../../assets/img/formation_service.png";
-import strategieService from "../../assets/img/strategie_service.png";
-import gestionContinue from "../../assets/img/gestion_service.png";
-import community from "../../assets/img/community_management_service.png";
-import publicity from "../../assets/img/publicity_service.png";
-import analyse from "../../assets/img/analyse_service.png";
-import concurence from "../../assets/img/concurence_service.png";
-import influence from "../../assets/img/influence_service.png";
-import market from "../../assets/img/market_service.png";
+import formationConsulting from "assets/img/formation_service.png";
+import strategieService from "assets/img/strategie_service.png";
+import gestionContinue from "assets/img/gestion_service.png";
+import community from "assets/img/community_management_service.png";
+import publicity from "assets/img/publicity_service.png";
+import analyse from "assets/img/analyse_service.png";
+import concurence from "assets/img/concurence_service.png";
+import influence from "assets/img/influence_service.png";
+import market from "assets/img/market_service.png";
 
 export const serviceData = [
   {

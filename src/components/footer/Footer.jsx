@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import digitalStrategie from "../../assets/img/digital_strategie.png";
+import digitalStrategie from "assets/img/digital_strategie.png";
 import { MdOutlinePhoneIphone, MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import CustomSocialIcon from "./CustomSocialIcon";

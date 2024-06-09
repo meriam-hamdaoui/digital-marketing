@@ -1,13 +1,13 @@
 import React from "react";
 import "./assets/style/style.css";
-import NavBar from "./components/navBar/NavBar.jsx";
-import Acceuil from "./components/acceuil/Acceuil.jsx";
-import Promo from "./components/promo/Promo.jsx";
-import About from "./components/about/About.jsx";
-import Pourquoi from "./components/pourquoi/Pourquoi.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import PackSection from "./components/nosPacks/PackSection.jsx";
-import ServiceSection from "./components/nosServices/ServiceSection.jsx";
+import NavBar from "components/navBar/NavBar.jsx";
+import Acceuil from "components/acceuil/Acceuil.jsx";
+import Promo from "components/promo/Promo.jsx";
+import About from "components/about/About.jsx";
+import Pourquoi from "components/pourquoi/Pourquoi.jsx";
+import Footer from "components/footer/Footer.jsx";
+import PackSection from "components/nosPacks/PackSection.jsx";
+import ServiceSection from "components/nosServices/ServiceSection.jsx";
 
 function App() {
   return (
