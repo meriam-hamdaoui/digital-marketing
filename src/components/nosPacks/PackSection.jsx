@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-// import "./packs.css";
-import "./packStyle.css";
+import "./pack.css";
+// import "./packStyle.css";
 import { nosPacks } from "./nosPacks";
 import PackCard from "./PackCard";
 

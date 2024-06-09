@@ -1,5 +1,5 @@
 import React from "react";
-import "./assets/style/style.css";
+import "assets/style/style.css";
 import NavBar from "components/navBar/NavBar.jsx";
 import Acceuil from "components/acceuil/Acceuil.jsx";
 import Promo from "components/promo/Promo.jsx";
