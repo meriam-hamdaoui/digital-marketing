@@ -1,5 +1,4 @@
 section.acceuil {
-  /* padding: auto 10%; */
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
@@ -14,6 +13,16 @@ section.acceuil {
     rgb(223, 145, 62, 0.85),
     rgb(255, 190, 70, 0.85)
   );
+}
+.acceuil_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+}
+.acceuil_title {
+  width: max-content;
+  /* border: 1px solid white; */
 }
 
 .acceuil_img {
@@ -75,9 +84,6 @@ section.acceuil {
 .icon:nth-child(6) {
   animation-delay: 2.5s;
 }
-/* .icon:nth-child(7) {
-  animation-delay: 3s;
-} */
 
 /* style weight size/line family */
 .acceuil_title h1 {
