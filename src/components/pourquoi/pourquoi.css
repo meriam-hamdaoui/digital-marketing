@@ -1,22 +1,24 @@
 .section_pourquoi {
+  height: 100vh;
   -webkit-box-shadow: 0px 1px 8px 4px rgba(132, 44, 182, 0.1);
   -moz-box-shadow: 0px 1px 8px 4px rgba(132, 44, 182, 0.1);
   box-shadow: 0px 1px 8px 4px rgba(132, 44, 182, 0.1);
 }
 
 .reason_container {
-  width: 90%;
-  height: max-content;
+  width: 100%;
+  height: 90%;
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px;
   text-align: center;
 }
 
 .reason_card {
   display: flex;
-  max-width: 45%;
+  width: 45%;
+  height: 38%;
   margin: 10px;
 }
 
@@ -29,7 +31,7 @@
   max-width: 75%;
 }
 .reason_text {
-  font: normal 400 clamp(12px, 1.5vw, 13px) / clamp(1rem, 1.5vw, 2rem) "Poppins",
+  font: normal 400 clamp(14px, 1vw, 16px) / clamp(1rem, 1.8vw, 2rem) "Poppins",
     sans-serif;
   width: 60%;
   text-align: justify;
