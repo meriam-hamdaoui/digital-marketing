@@ -1,51 +1,69 @@
-.about_container {
-  width: 80%;
-  height: max-content;
+.about_container,
+.about_imgs,
+.about_paragraph {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px auto 10px;
-}
-.trendy_broch {
-  max-width: 40%;
-  text-align: center;
-  margin: 2px;
+  flex-direction: column;
 }
 
-.trendy_broch img {
-  max-width: 60%;
-  filter: drop-shadow(1px 5px 3px rgba(249, 140, 67, 0.6));
+.about_container {
+  width: 90%;
+  /* padding: 2%; */
+  height: clamp(25%, 50%, 100%);
 }
+
+.about_imgs {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  margin: 2%;
+}
+.logo_about {
+  width: clamp(10%, 13%, 18%);
+  filter: drop-shadow(4px 8px 6px rgba(55, 26, 116, 1));
+  animation: rotate3D 15s infinite linear;
+  margin-bottom: 3%;
+}
+@keyframes rotate3D {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.trendy_agency_title {
+  width: clamp(10%, 28%, 40%);
+}
+
 .about_paragraph {
+  width: 100%;
   margin-top: 25px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline;
-  font-size: clamp(12px, 1.2vw, 14px);
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(14px, 1vw, 18px);
   line-height: clamp(1rem, 1.5vw, 1.9rem);
   color: #371a74;
 }
 
-b.trendy_agency {
-  color: rgb(86, 58, 145) !important;
-}
 /* style weight size/line family */
 .agence_marketing,
 .notre_mission {
-  width: 80%;
+  width: 90%;
 }
 
-b.agence_marketing,
-b.notre_mission {
-  font-size: clamp(14px, 1.2vw, 16px);
-  line-height: clamp(1rem, 1.5vw, 1.9rem);
+b.trendy_agency {
+  color: rgb(86, 58, 145) !important;
+  font-size: clamp(14px, 1.2vw, 18px);
+  line-height: clamp(1rem, 1.2vw, 1.9rem);
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-  .trendy_broch {
+  .about_imgs {
     display: none;
   }
   .about_paragraph {
@@ -62,9 +80,6 @@ b.notre_mission {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  /* .trendy_broch {
-    display: none;
-  } */
   .about_container,
   .about_paragraph {
     flex-direction: column;

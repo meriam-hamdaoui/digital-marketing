@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./acceuil.css";
-import instaGirl from "../../assets/img/insta-girl-removebg.png";
+import instaGirl from "../../assets/img/insta_girl_acceuil.png";
 import IconComponent, { URL, handleResize } from "./IconComponent";
 
 const Acceuil = () => {

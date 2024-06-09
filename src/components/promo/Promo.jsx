@@ -1,6 +1,6 @@
 import React from "react";
 import "./promo.css";
-import animateLogo from "../../assets/img/logo-1.png";
+import trendyLogo from "../../assets/img/trendy_logo.png";
 
 const Promo = () => {
   return (
@@ -13,7 +13,7 @@ const Promo = () => {
       </div>
 
       <div className="promo_logo">
-        <img src={animateLogo} alt="agency logo" className="img-fluid" />
+        <img src={trendyLogo} alt="agency logo" className="img-fluid" />
       </div>
 
       <div className="sponsoring text-center">

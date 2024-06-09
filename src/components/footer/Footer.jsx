@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import trendyAgency from "../../assets/img/trendy-agency-removebg.png";
+import digitalStrategie from "../../assets/img/digital_strategie.png";
 import { MdOutlinePhoneIphone, MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import CustomSocialIcon from "./CustomSocialIcon";
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="top_footer d-flex flex-row align-items-center justify-content-around">
         <div className="footer_agency d-flex flex-row align-items-center justify-content-around">
           <div className="footer_img_container text-center">
-            <img src={trendyAgency} alt="trendy-agency" />
+            <img src={digitalStrategie} alt="trendy-agency" />
           </div>
 
           <div className="footer_about_agency">

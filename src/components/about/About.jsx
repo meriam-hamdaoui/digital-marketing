@@ -1,19 +1,25 @@
 import React from "react";
 import "./about.css";
-import trendyBrochure from "../../assets/img/trendy-agency-removebg.png";
+import trendyAgencyTitle from "../../assets/img/trendy_agency_title.png";
+import logoAbout from "../../assets/img/trendy_logo.png";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="section_about">
       <h2 className="section_title text-center qui-somme-nous">
         Qui Sommes-Nous?
       </h2>
       <div className="about_container">
-        <div className="trendy_broch">
+        <div className="about_imgs">
           <img
-            src={trendyBrochure}
+            src={logoAbout}
             alt="trendy brochure"
-            className="img-fluid"
+            className="logo_about img-fluid"
+          />
+          <img
+            src={trendyAgencyTitle}
+            alt="trendy brochure"
+            className="trendy_agency_title img-fluid"
           />
         </div>
         <div className="about_paragraph paragraph_font">

@@ -1,13 +1,13 @@
 import { v4 as uuidv4 } from "uuid";
-import formationConsulting from "../../assets/img/formation-removebg.png";
-import strategie from "../../assets/img/strategie.png";
-import gestionContinue from "../../assets/img/gestionContinue.png";
-import community from "../../assets/img/community-management.png";
-import publicity from "../../assets/img/publicity-removebg.png";
-import analyse from "../../assets/img/analyse-removebg.png";
-import concurence from "../../assets/img/concurence-removebg.png";
-import influence from "../../assets/img/influence-removebg.png";
-import market from "../../assets/img/market-removebg.png";
+import formationConsulting from "../../assets/img/formation_service.png";
+import strategieService from "../../assets/img/strategie_service.png";
+import gestionContinue from "../../assets/img/gestion_service.png";
+import community from "../../assets/img/community_management_service.png";
+import publicity from "../../assets/img/publicity_service.png";
+import analyse from "../../assets/img/analyse_service.png";
+import concurence from "../../assets/img/concurence_service.png";
+import influence from "../../assets/img/influence_service.png";
+import market from "../../assets/img/market_service.png";
 
 export const serviceData = [
   {
@@ -19,7 +19,7 @@ export const serviceData = [
   {
     id: uuidv4(),
     title: "Stratégie de Médias Sociaux",
-    img: strategie,
+    img: strategieService,
     desc: "Nous élaborons des stratégies de médias sociaux sur mesure en fonction des objectifs commerciaux de nos clients, de leur industrie et de leur public cible.",
   },
   {
