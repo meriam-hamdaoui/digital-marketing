@@ -45,7 +45,7 @@ section {
   color: #371a74;
   white-space: nowrap; /* Prevent text from wrapping */
   /* style weight size/line family */
-  font: normal 700 clamp(0.5rem, 1.25vw, 3rem) / clamp(0.5rem, 1vw, 1.5rem)
+  font: normal 700 clamp(16px, 1.3vw, 20rem) / clamp(0.5vw, 1vw, 1.5vw)
       "Poppins",
     sans-serif;
 }
