@@ -1,0 +1,37 @@
+.animated_bg {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loading_txt {
+  font-size: 15rem;
+  background: linear-gradient(
+    -45deg,
+    rgba(132, 44, 182, 0.85),
+    rgba(186, 8, 208, 0.85),
+    rgba(250, 110, 51, 0.85),
+    rgba(223, 145, 62, 0.85),
+    rgba(255, 190, 70, 0.85)
+  );
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite;
+  color: transparent;
+  background-clip: text;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
