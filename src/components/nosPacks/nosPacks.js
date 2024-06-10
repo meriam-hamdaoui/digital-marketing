@@ -111,7 +111,7 @@ export const packSansRibbon = [
     name: `Formation et Consulting `,
     choice: [
       {
-        price: `A partir de 1000 jusqu'à 2500`,
+        price: `<>A partir de 1000dt/mois <br /> jusqu'à 2500dt/mois</>`,
         details: [
           `Stratégie de Médias Sociaux`,
           `Mini formation accéléré`,

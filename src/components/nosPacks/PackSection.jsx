@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./pack.css";
 import { packAvecRibbon, packSansRibbon } from "./nosPacks";
 import PackCard from "./PackCard";
+import PackSansRibbon from "./PackSansRibbon";
 
 const PackSection = () => {
   const [packRibbon, setPacks] = useState([]);
@@ -37,20 +38,23 @@ const PackSection = () => {
               className="pack_card d-flex justify-content-center align-items-center"
               style={{ width: "50%" }}
             >
-              {pack.choice.map((el) => (
-                <div className="pack_detail">
-                  <div className="detail_list">
-                    <div className="price_tag shrink_text text-center">
-                      {el.price}
-                    </div>
-                    <ul className="shrink_text">
-                      {el.details.map((el, index) => (
-                        <li key={index * 3}>{el}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              ))}
+              {pack.choice.map(
+                (choix) => (
+                  <PackSansRibbon choix={choix} />
+                )
+                // <div className="pack_detail">
+                //   <div className="detail_list">
+                //     <div className="price_tag shrink_text text-center">
+                //       {choix.price}
+                //     </div>
+                //     <ul className="shrink_text">
+                //       {choix.details.map((el, index) => (
+                //         <li key={index * 3}>{el}</li>
+                //       ))}
+                //     </ul>
+                //   </div>
+                // </div>
+              )}
             </div>
           </div>
         ))}
