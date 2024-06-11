@@ -43,7 +43,7 @@
   color: #371a74;
 }
 .nav_link:hover {
-  color: rgb(125, 32, 136, 0.75) !important;
+  color: rgb(125, 32, 136, 0.75);
 }
 
 .nav_link.active {
