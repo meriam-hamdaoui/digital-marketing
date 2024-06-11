@@ -31,7 +31,7 @@
   justify-content: center;
   align-items: center;
 }
-.navbar_custom .nav_link:link {
+.nav_link:link {
   padding: 2%;
   color: #371a74;
   white-space: nowrap; /* Prevent text from wrapping */
@@ -39,9 +39,9 @@
     sans-serif;
   text-decoration: none;
 }
-.navbar_custom .nav_link:visited {
+.nav_link:visited {
   color: #371a74;
 }
-.navbar_custom .nav_link:hover {
+.nav_link:hover {
   color: rgb(125, 32, 136, 0.75) !important;
 }
