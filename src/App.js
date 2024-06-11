@@ -8,7 +8,7 @@ import Pourquoi from "components/pourquoi/Pourquoi.jsx";
 import Footer from "components/footer/Footer.jsx";
 import PackSection from "components/nosPacks/PackSection.jsx";
 import ServiceSection from "components/nosServices/ServiceSection.jsx";
-import Loading from "./components/loading/Loading";
+import Loader from "./components/loader/Loader";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <Loading />
+        <Loader />
       ) : (
         <div className="app_content">
           <NavBar />

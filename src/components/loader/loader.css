@@ -1,14 +1,18 @@
-.animated_bg {
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+.App {
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.loader {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 15rem;
+  /* background-color: aquamarine; */
 }
 
-.loading_txt {
+/* .loading_txt {
   font-size: 15rem;
   background: linear-gradient(
     -45deg,
@@ -34,4 +38,4 @@
   100% {
     background-position: 0% 50%;
   }
-}
+} */
