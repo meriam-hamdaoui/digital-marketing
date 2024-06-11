@@ -11,7 +11,7 @@ const Acceuil = () => {
   }, []);
 
   return (
-    <section id="acceuil" className="acceuil">
+    <section id="" className="acceuil">
       {/* img div */}
       <div className="acceuil_img">
         <img src={instaGirl} alt="insta-girl" className="img-fluid" />

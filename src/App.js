@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import "assets/style/style.css";
 import NavBar from "components/navBar/NavBar.jsx";
 import Acceuil from "components/acceuil/Acceuil.jsx";
@@ -8,22 +9,46 @@ import Pourquoi from "components/pourquoi/Pourquoi.jsx";
 import Footer from "components/footer/Footer.jsx";
 import PackSection from "components/nosPacks/PackSection.jsx";
 import ServiceSection from "components/nosServices/ServiceSection.jsx";
+import Loader from "./components/loader/Loader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  const location = useLocation();
+  const navigate = useNavigate();
+  const activeLink = location.hash.slice(1);
+
+  useEffect(() => {
+    if (location.hash && loading) {
+      navigate(
+        {
+          pathname: location.pathname,
+          search: location.search,
+          hash: "",
+        },
+        { replace: true }
+      );
+    }
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  });
+
   return (
     <div className="App">
-      <NavBar />
-      <Acceuil />
-      <Promo />
-      <About />
-      <ServiceSection />
-      <Pourquoi />
-      {/* <hr style={{ color: "rgba(207, 117, 153, 1)" }} /> */}
-
-      <PackSection />
-      {/* <hr style={{ color: "rgba(207, 117, 153, 1)" }} /> */}
-
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <div className="app_content">
+          <NavBar activeLink={activeLink} />
+          <Acceuil />
+          <Promo />
+          <About />
+          <ServiceSection />
+          <Pourquoi />
+          <PackSection />
+          <Footer />
+        </div>
+      )}
     </div>
   );
 }

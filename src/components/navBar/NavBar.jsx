@@ -5,14 +5,14 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
 import { navLinks } from "./navLinks";
 
-const NavBar = () => {
+const NavBar = ({ activeLink }) => {
   return (
     <Navbar
       expand="lg"
       className="navbar_custom navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary"
     >
       <Container fluid className="navbar_container">
-        <Navbar.Brand href="#acceuil" className="navbar_brand">
+        <Navbar.Brand href="#" className="navbar_brand">
           <img
             src={trendy}
             alt="trendy-logo"
@@ -32,7 +32,7 @@ const NavBar = () => {
                 key={link.id}
                 smooth
                 to={`#${link.id}`}
-                className="nav_link"
+                className={`nav_link ${activeLink === link.id ? "active" : ""}`}
               >
                 {link.name}
               </Link>

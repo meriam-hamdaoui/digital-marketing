@@ -41,12 +41,12 @@ export const URL = [
     url: "https://facebook.com/",
   },
   {
-    name: "youtube",
-    url: "https://youtube.com/",
-  },
-  {
     name: "tiktok",
     url: "https://tiktok.com/",
+  },
+  {
+    name: "youtube",
+    url: "https://youtube.com/",
   },
   {
     name: "pinterest",
