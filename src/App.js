@@ -15,7 +15,6 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   const activeLink = useLocation().hash.slice(1);
-  // console.log("active link : ", activeLink);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2000);

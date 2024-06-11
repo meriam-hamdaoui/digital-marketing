@@ -9,33 +9,4 @@
   height: 100%;
   position: relative;
   margin: 15rem;
-  /* background-color: aquamarine; */
 }
-
-/* .loading_txt {
-  font-size: 15rem;
-  background: linear-gradient(
-    -45deg,
-    rgba(132, 44, 182, 0.85),
-    rgba(186, 8, 208, 0.85),
-    rgba(250, 110, 51, 0.85),
-    rgba(223, 145, 62, 0.85),
-    rgba(255, 190, 70, 0.85)
-  );
-  background-size: 400% 400%;
-  animation: gradientAnimation 5s ease infinite;
-  color: transparent;
-  background-clip: text;
-}
-
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
