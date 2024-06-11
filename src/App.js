@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import "assets/style/style.css";
 import NavBar from "components/navBar/NavBar.jsx";
 import Acceuil from "components/acceuil/Acceuil.jsx";
@@ -14,12 +14,24 @@ import Loader from "./components/loader/Loader";
 function App() {
   const [loading, setLoading] = useState(true);
 
-  const activeLink = useLocation().hash.slice(1);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const activeLink = location.hash.slice(1);
 
   useEffect(() => {
+    if (location.hash && loading) {
+      navigate(
+        {
+          pathname: location.pathname,
+          search: location.search,
+          hash: "",
+        },
+        { replace: true }
+      );
+    }
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
-  }, []);
+  });
 
   return (
     <div className="App">
