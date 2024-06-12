@@ -1,3 +1,7 @@
+.section_about {
+  height: 100vh;
+}
+
 .about_container,
 .about_imgs,
 .about_paragraph {
@@ -10,7 +14,7 @@
 .about_container {
   width: 90%;
   /* padding: 2%; */
-  height: clamp(25%, 50%, 100%);
+  /* height: clamp(25%, 50%, 100%); */
 }
 
 .about_imgs {
