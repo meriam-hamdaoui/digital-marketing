@@ -27,10 +27,10 @@ function App() {
       duration: 1200, // Duration of animation in milliseconds
     });
 
-    if (location.hash && loading) {
+    if (location.pathname && loading) {
       navigate(
         {
-          pathname: location.pathname,
+          pathname: "",
           search: location.search,
           hash: "",
         },

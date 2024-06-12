@@ -6,9 +6,7 @@ import logoAbout from "assets/img/trendy_logo.png";
 const About = () => {
   return (
     <section id="about" className="section_about" data-aos="fade-down-big">
-      <h2 className="section_title text-center qui-somme-nous">
-        Qui Sommes-Nous?
-      </h2>
+      <h2 className="section_title text-center">Qui Sommes-Nous?</h2>
       <div className="about_container">
         <div className="about_imgs">
           <img
