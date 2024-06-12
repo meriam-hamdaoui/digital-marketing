@@ -10,6 +10,9 @@ import Footer from "components/footer/Footer.jsx";
 import PackSection from "components/nosPacks/PackSection.jsx";
 import ServiceSection from "components/nosServices/ServiceSection.jsx";
 import Loader from "./components/loader/Loader";
+//
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -19,6 +22,10 @@ function App() {
   const activeLink = location.hash.slice(1);
 
   useEffect(() => {
+    AOS.init({
+      duration: 1000, // Duration of animation in milliseconds
+    });
+
     if (location.hash && loading) {
       navigate(
         {

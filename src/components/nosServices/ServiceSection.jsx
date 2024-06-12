@@ -13,6 +13,7 @@ const ServiceSection = () => {
   return (
     <section
       id="services"
+      data-aos="fade-down-big"
       className="service_section d-flex flex-column justify-content-between align-items-center"
     >
       <h2 className="section_title text-center">Nos Services</h2>
