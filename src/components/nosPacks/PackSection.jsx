@@ -16,7 +16,7 @@ const PackSection = () => {
   }, []);
 
   return (
-    <section id="packs" className="pack_section" data-aos="fade-down-big">
+    <section id="packs" className="pack_section" data-aos="fade-left-big">
       <h2 className="section_title text-center">Nos Packs</h2>
       <div className="pack_container">
         {packRibbon.map((pack) => (

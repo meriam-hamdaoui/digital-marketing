@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ServiceCard from "./ServiceCard";
-import "./nosServices.css";
+import "./services.css";
 import { serviceData } from "./serviceData";
 
 const ServiceSection = () => {
@@ -13,7 +13,7 @@ const ServiceSection = () => {
   return (
     <section
       id="services"
-      data-aos="fade-down-big"
+      data-aos="fade-left-big"
       className="service_section d-flex flex-column justify-content-between align-items-center"
     >
       <h2 className="section_title text-center">Nos Services</h2>

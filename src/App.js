@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "assets/style/style.css";
 import NavBar from "components/navBar/NavBar.jsx";
 import Acceuil from "components/acceuil/Acceuil.jsx";
 import Promo from "components/promo/Promo.jsx";
 import About from "components/about/About.jsx";
 import Pourquoi from "components/pourquoi/Pourquoi.jsx";
-import Footer from "components/footer/Footer.jsx";
 import PackSection from "components/nosPacks/PackSection.jsx";
 import ServiceSection from "components/nosServices/ServiceSection.jsx";
 import Loader from "./components/loader/Loader";
@@ -18,25 +17,13 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   const location = useLocation();
-  const navigate = useNavigate();
   const activeLink = location.pathname.slice(1);
   console.log(activeLink);
 
   useEffect(() => {
     AOS.init({
-      duration: 1200, // Duration of animation in milliseconds
+      duration: 1000, // Duration of animation in milliseconds
     });
-
-    if (location.pathname && loading) {
-      navigate(
-        {
-          pathname: "",
-          search: location.search,
-          hash: "",
-        },
-        { replace: true }
-      );
-    }
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
   });
@@ -67,7 +54,10 @@ function App() {
 
             <Route path="/nos-packs" element={<PackSection />} />
           </Routes>
-          <Footer />
+
+          <footer className="bottom_footer text-center">
+            TRENDY AGENCY@copyright-2024
+          </footer>
         </div>
       )}
     </div>
