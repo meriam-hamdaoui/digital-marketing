@@ -15,7 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 8rem; /* space between cards */
+  gap: 5rem; /* space between cards */
 }
 
 .card {
@@ -33,7 +33,6 @@
       "Montserrat",
     sans-serif;
   text-align: center;
-  /* width: 90%; */
 }
 
 img.service_img {

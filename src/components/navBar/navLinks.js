@@ -25,7 +25,8 @@ export const navLinks = [
     name: "Nos Packs",
   },
   {
-    id: "footer",
+    id: "contactez-nous",
+    path: "contactez-nous",
     name: "Contactez-nous",
   },
 ];

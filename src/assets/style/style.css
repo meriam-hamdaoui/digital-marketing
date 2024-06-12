@@ -31,6 +31,10 @@ section {
   overflow: auto; /* scroll if content exceeds max-height */
 }
 
+.app_content {
+  width: 100%;
+}
+
 .section_title {
   color: #371a74;
   font: normal 600 clamp(16px, 1.5vw, 40px) / clamp(1rem, 1.2vw, 1.5rem)
