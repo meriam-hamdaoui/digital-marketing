@@ -23,7 +23,7 @@ section {
   max-width: 100%;
   height: clamp(25%, 50%, 100%);
   /* padding: 70px 120px 25px; */
-  padding: 6% 10% 3%;
+  padding: 1rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

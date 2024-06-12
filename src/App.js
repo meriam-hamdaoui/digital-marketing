@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import "assets/style/style.css";
 import NavBar from "components/navBar/NavBar.jsx";
 import Acceuil from "components/acceuil/Acceuil.jsx";
@@ -19,11 +19,12 @@ function App() {
 
   const location = useLocation();
   const navigate = useNavigate();
-  const activeLink = location.hash.slice(1);
+  const activeLink = location.pathname.slice(1);
+  console.log(activeLink);
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Duration of animation in milliseconds
+      duration: 1200, // Duration of animation in milliseconds
     });
 
     if (location.hash && loading) {
@@ -47,12 +48,25 @@ function App() {
       ) : (
         <div className="app_content">
           <NavBar activeLink={activeLink} />
-          <Acceuil />
-          <Promo />
-          <About />
-          <ServiceSection />
-          <Pourquoi />
-          <PackSection />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Acceuil />
+                  <Promo />
+                </>
+              }
+            />
+
+            <Route path="/qui-somme-nous" element={<About />} />
+
+            <Route path="/nos-services" element={<ServiceSection />} />
+
+            <Route path="/pourquoi-nous" element={<Pourquoi />} />
+
+            <Route path="/nos-packs" element={<PackSection />} />
+          </Routes>
           <Footer />
         </div>
       )}

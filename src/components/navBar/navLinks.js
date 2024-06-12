@@ -1,22 +1,27 @@
 export const navLinks = [
   {
     id: "",
+    path: "",
     name: "Acceuil",
   },
   {
-    id: "about",
+    id: "qui-somme-nous",
+    path: "qui-somme-nous",
     name: "Qui Sommes-Nous?",
   },
   {
-    id: "services",
+    id: "nos-services",
+    path: "nos-services",
     name: "Nos Services",
   },
   {
-    id: "pourquoi",
+    id: "pourquoi-nous",
+    path: "pourquoi-nous",
     name: "Pourquoi Nous?",
   },
   {
-    id: "packs",
+    id: "nos-packs",
+    path: "nos-packs",
     name: "Nos Packs",
   },
   {

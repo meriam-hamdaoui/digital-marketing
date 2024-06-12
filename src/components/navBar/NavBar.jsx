@@ -2,7 +2,8 @@ import React from "react";
 import "./navBar.css";
 import trendy from "assets/img/navbar_brand.png";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link as RouterLink } from "react-router-dom";
+// import { HashLink as Link } from "react-router-hash-link";
 import { navLinks } from "./navLinks";
 
 const NavBar = ({ activeLink }) => {
@@ -28,6 +29,16 @@ const NavBar = ({ activeLink }) => {
             navbarScroll
           >
             {navLinks.map((link) => (
+              <RouterLink
+                key={link.id}
+                className={`nav_link ${activeLink === link.id ? "active" : ""}`}
+                to={link.path}
+              >
+                {link.name}
+              </RouterLink>
+            ))}
+
+            {/* {navLinks.map((link) => (
               <Link
                 key={link.id}
                 smooth
@@ -36,7 +47,7 @@ const NavBar = ({ activeLink }) => {
               >
                 {link.name}
               </Link>
-            ))}
+            ))} */}
           </Nav>
         </Navbar.Collapse>
       </Container>
