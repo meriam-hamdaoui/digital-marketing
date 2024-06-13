@@ -22,14 +22,17 @@ code {
 section {
   max-width: 100%;
   height: clamp(25%, 50%, 100%);
-  /* padding: 70px 120px 25px; */
-  padding: 6% 10% 3%;
+  padding: 30px 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   overflow: auto; /* scroll if content exceeds max-height */
+}
+
+.app_content {
+  width: 100%;
 }
 
 .section_title {
@@ -62,4 +65,12 @@ section {
     sans-serif;
   text-align: justify;
   letter-spacing: 0.1rem;
+}
+
+footer {
+  border-top: 1px solid rgba(207, 117, 153, 0.5);
+  padding: 8px 0;
+  color: rgb(55, 3, 71);
+  font: normal 700 clamp(12px, 1vw, 14px) / clamp(0.5rem, 1vw, 1.5rem) "Poppins",
+    sans-serif;
 }

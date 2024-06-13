@@ -3,7 +3,7 @@ import "./footer.css";
 import digitalStrategie from "assets/img/digital_strategie.png";
 import { MdOutlinePhoneIphone, MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
-import CustomSocialIcon from "./CustomSocialIcon";
+import CustomSocialIcon from "../contacts/CustomSocialIcon";
 
 const Footer = () => {
   return (
@@ -17,9 +17,9 @@ const Footer = () => {
           <div className="footer_about_agency">
             <h3 className="trendy_agency text-center">TRENDY AGENCY</h3>
             <p className="shrink_text">
-              Agence marketing digital spécialisée dans les réseaux sociaux,
-              offrant une gamme complète de services pour aider les entreprises
-              à tirer le meilleur parti de leur présence en ligne.
+              Agence de marketing digital experte en réseaux sociaux, proposant
+              une gamme de services complets pour optimiser la visibilité en
+              ligne des entreprises.
             </p>
           </div>
         </div>
@@ -58,8 +58,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr style={{ color: "rgba(207, 117, 153, 1)" }} />
-      <div className="bottom_footer text-center">
+
+      <div className="bottom_footer text-center" style={{ padding: "25px 0" }}>
         TRENDY AGENCY@copyright-2024
       </div>
     </footer>

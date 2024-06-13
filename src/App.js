@@ -1,34 +1,30 @@
 import React, { useState, useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import "assets/style/style.css";
 import NavBar from "components/navBar/NavBar.jsx";
 import Acceuil from "components/acceuil/Acceuil.jsx";
 import Promo from "components/promo/Promo.jsx";
 import About from "components/about/About.jsx";
 import Pourquoi from "components/pourquoi/Pourquoi.jsx";
-import Footer from "components/footer/Footer.jsx";
 import PackSection from "components/nosPacks/PackSection.jsx";
 import ServiceSection from "components/nosServices/ServiceSection.jsx";
-import Loader from "./components/loader/Loader";
+import Loader from "components/loader/Loader";
+import ContactUs from "components/contacts/ContactUs";
+//
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
 
   const location = useLocation();
-  const navigate = useNavigate();
-  const activeLink = location.hash.slice(1);
+  const activeLink = location.pathname.slice(1);
+  console.log(activeLink);
 
   useEffect(() => {
-    if (location.hash && loading) {
-      navigate(
-        {
-          pathname: location.pathname,
-          search: location.search,
-          hash: "",
-        },
-        { replace: true }
-      );
-    }
+    AOS.init({
+      duration: 1000, // Duration of animation in milliseconds
+    });
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
   });
@@ -40,13 +36,27 @@ function App() {
       ) : (
         <div className="app_content">
           <NavBar activeLink={activeLink} />
-          <Acceuil />
-          <Promo />
-          <About />
-          <ServiceSection />
-          <Pourquoi />
-          <PackSection />
-          <Footer />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Acceuil />
+                  <Promo />
+                </>
+              }
+            />
+
+            <Route path="/qui-sommes-nous" element={<About />} />
+            <Route path="/nos-services" element={<ServiceSection />} />
+            <Route path="/pourquoi-nous" element={<Pourquoi />} />
+            <Route path="/nos-packs" element={<PackSection />} />
+            <Route path="/contactez-nous" element={<ContactUs />} />
+          </Routes>
+
+          <footer className="bottom_footer text-center">
+            TRENDY AGENCY@copyright-2024
+          </footer>
         </div>
       )}
     </div>
