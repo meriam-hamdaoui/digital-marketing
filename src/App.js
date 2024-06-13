@@ -9,7 +9,7 @@ import Pourquoi from "components/pourquoi/Pourquoi.jsx";
 import PackSection from "components/nosPacks/PackSection.jsx";
 import ServiceSection from "components/nosServices/ServiceSection.jsx";
 import Loader from "components/loader/Loader";
-import Contact from "components/contacts/Contact";
+import ContactUs from "components/contacts/ContactUs";
 //
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -51,7 +51,7 @@ function App() {
             <Route path="/nos-services" element={<ServiceSection />} />
             <Route path="/pourquoi-nous" element={<Pourquoi />} />
             <Route path="/nos-packs" element={<PackSection />} />
-            <Route path="/contactez-nous" element={<Contact />} />
+            <Route path="/contactez-nous" element={<ContactUs />} />
           </Routes>
 
           <footer className="bottom_footer text-center">
