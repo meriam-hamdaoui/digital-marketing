@@ -1,10 +1,10 @@
 import React from "react";
 import "./contactUs.css";
-import { Form, Button } from "react-bootstrap";
 import trendy_agency_footer from "assets/img/trendy_agency_footer.png";
 import { MdOutlinePhoneIphone, MdOutlineMailOutline } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import CustomSocialIcon from "../contacts/CustomSocialIcon";
+import FormContact from "./FormContact";
 
 const ContactUs = () => {
   return (
@@ -46,20 +46,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <Form className="contact_form">
-          <h4 className="plus_information trendy_agency">
-            Pour plus d'information
-          </h4>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Votre Message</Form.Label>
-            <Form.Control as="textarea" rows={5} />
-          </Form.Group>
-          <Button>Envoyer</Button>
-        </Form>
+        <FormContact />
       </div>
     </section>
   );
