@@ -19,7 +19,6 @@ function App() {
 
   const location = useLocation();
   const activeLink = location.pathname.slice(1);
-  console.log(activeLink);
 
   useEffect(() => {
     AOS.init({
