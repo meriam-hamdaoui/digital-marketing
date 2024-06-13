@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <section className="contact_section">
       <h2 className="section_title text-center">Contactez-Nous</h2>
-      <div className="contact_container d-flex flex-row justify-content-between align-items-first-baseline">
+      <div className="contact_container align-items-first-baseline">
         <div className="contact_img">
           <img src={trendy_agency_footer} alt="trendy agency logo" />
         </div>

@@ -11,6 +11,9 @@
   width: 100%;
   height: 100%;
   padding: 2rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .contact_form {
@@ -45,4 +48,51 @@
 
 .form_btn {
   background-color: rgb(55, 26, 116, 0.8);
+}
+
+.form_btn:hover {
+  background-color: white;
+  color: rgb(55, 26, 116, 0.8);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .contact_container {
+    flex-direction: column;
+  }
+  .contact_form,
+  .contact_personel {
+    width: 100%;
+  }
+  .contact_img {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .contact_container {
+    flex-direction: column;
+  }
+  .contact_form,
+  .contact_personel {
+    width: 100%;
+  }
+  .contact_img {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+  .contact_container {
+    flex-direction: column;
+  }
+  .contact_form,
+  .contact_personel {
+    width: 100%;
+  }
+  .contact_img {
+    display: none;
+  }
 }
