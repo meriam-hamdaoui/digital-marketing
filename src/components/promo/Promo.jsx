@@ -7,7 +7,8 @@ const Promo = () => {
     <section className="promo">
       <div className="profiter">
         <h1>
-          Profitez <span>20%*</span>
+          Profitez{" "}
+          <span style={{ color: " rgb(186, 8, 208, 0.85)" }}>20%*</span>
         </h1>
         <p>*lors du mois d'ouverture</p>
       </div>

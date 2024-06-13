@@ -1,7 +1,7 @@
 .promo {
   width: 100%;
   height: max-content;
-  padding: 1% 10%;
+  padding: 1rem 10rem;
 
   display: flex;
   flex-direction: row;
@@ -18,15 +18,15 @@
   width: 45%;
   text-align: center;
   height: fit-content;
-  padding: 1%;
+  /* padding: 1%; */
 }
 .promo_log {
   padding: 1%;
-  max-width: 25%;
+  max-width: 20%;
   text-align: center;
 }
 .promo_logo img {
-  max-width: 40%;
+  max-width: 35%;
   filter: drop-shadow(2px 6px 4px rgba(255, 127, 39, 0.9));
 }
 
@@ -44,7 +44,7 @@
 .sponsoring > p {
   color: #371a74 !important;
   /* font: normal 400 1rem/1rem "Poppins", sans-serif; */
-  font: bold clamp(8px, 0.5vw, 11px) / clamp(1rem, 0.5vw, 2rem) "Poppins",
+  font: bold clamp(8px, 1vw, 11px) / clamp(1rem, 0.5vw, 2rem) "Poppins",
     sans-serif;
   text-align: center;
 }

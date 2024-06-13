@@ -47,7 +47,7 @@ function App() {
               }
             />
 
-            <Route path="/qui-somme-nous" element={<About />} />
+            <Route path="/qui-sommes-nous" element={<About />} />
             <Route path="/nos-services" element={<ServiceSection />} />
             <Route path="/pourquoi-nous" element={<Pourquoi />} />
             <Route path="/nos-packs" element={<PackSection />} />
